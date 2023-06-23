@@ -1,0 +1,15 @@
+CRITICAL - 2023-06-16 13:25:31 --> Cannot redeclare App\Controllers\Home::index()
+in APPPATH\Controllers\Home.php on line 96.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-06-16 13:26:20 --> Cannot redeclare App\Controllers\Home::index()
+in APPPATH\Controllers\Home.php on line 96.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-06-16 13:34:35 --> Cannot redeclare App\Controllers\Home::index()
+in APPPATH\Controllers\Home.php on line 96.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-06-16 13:35:07 --> Cannot redeclare App\Controllers\Home::entrar()
+in APPPATH\Controllers\Home.php on line 96.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-06-16 13:35:09 --> Cannot redeclare App\Controllers\Home::entrar()
+in APPPATH\Controllers\Home.php on line 96.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()

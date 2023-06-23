@@ -1,0 +1,38 @@
+CRITICAL - 2023-05-12 12:31:16 --> Undefined array key "form-control"
+in APPPATH\Controllers\Home.php on line 41.
+ 1 APPPATH\Controllers\Home.php(41): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "form-control"', 'C:\\xampp\\htdocs\\CIBERSHIFT\\app\\Controllers\\Home.php', 41)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->contact()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-12 12:32:11 --> Undefined array key "form-control"
+in APPPATH\Controllers\Home.php on line 41.
+ 1 APPPATH\Controllers\Home.php(41): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "form-control"', 'C:\\xampp\\htdocs\\CIBERSHIFT\\app\\Controllers\\Home.php', 41)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->contact()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-12 18:08:00 --> mysqli_connect(): php_network_getaddresses: getaddrinfo for barberia failed: Host desconocido. 
+in APPPATH\Controllers\Home.php on line 34.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'mysqli_connect(): php_network_getaddresses: getaddrinfo for barberia failed: Host desconocido. ', 'C:\\xampp\\htdocs\\CIBERSHIFT\\app\\Controllers\\Home.php', 34)
+ 2 APPPATH\Controllers\Home.php(34): mysqli_connect('barberia', 'localhost', Object(SensitiveParameterValue), '0000')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->contact()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-12 18:08:01 --> mysqli_connect(): php_network_getaddresses: getaddrinfo for barberia failed: Host desconocido. 
+in APPPATH\Controllers\Home.php on line 34.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'mysqli_connect(): php_network_getaddresses: getaddrinfo for barberia failed: Host desconocido. ', 'C:\\xampp\\htdocs\\CIBERSHIFT\\app\\Controllers\\Home.php', 34)
+ 2 APPPATH\Controllers\Home.php(34): mysqli_connect('barberia', 'localhost', Object(SensitiveParameterValue), '0000')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->contact()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-12 18:08:09 --> mysqli_connect(): php_network_getaddresses: getaddrinfo for barberia failed: Host desconocido. 
+in APPPATH\Controllers\Home.php on line 34.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'mysqli_connect(): php_network_getaddresses: getaddrinfo for barberia failed: Host desconocido. ', 'C:\\xampp\\htdocs\\CIBERSHIFT\\app\\Controllers\\Home.php', 34)
+ 2 APPPATH\Controllers\Home.php(34): mysqli_connect('barberia', 'localhost', Object(SensitiveParameterValue), '0000')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->contact()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

@@ -1,0 +1,14 @@
+CRITICAL - 2023-06-02 19:27:43 --> Undefined array key "comments"
+in APPPATH\Controllers\Home.php on line 40.
+ 1 APPPATH\Controllers\Home.php(40): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "comments"', 'C:\\xampp\\htdocs\\CIBERSHIFT\\app\\Controllers\\Home.php', 40)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->cita()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-02 19:28:58 --> Undefined array key "comments"
+in APPPATH\Controllers\Home.php on line 40.
+ 1 APPPATH\Controllers\Home.php(40): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "comments"', 'C:\\xampp\\htdocs\\CIBERSHIFT\\app\\Controllers\\Home.php', 40)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->cita()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

@@ -1,0 +1,338 @@
+CRITICAL - 2023-05-15 19:40:49 --> Undefined array key "form-control"
+in APPPATH\Controllers\Home.php on line 61.
+ 1 APPPATH\Controllers\Home.php(61): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "form-control"', 'C:\\xampp\\htdocs\\CIBERSHIFT\\app\\Controllers\\Home.php', 61)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->entrar()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-15 19:40:49 --> Undefined array key "form-control"
+in APPPATH\Controllers\Home.php on line 61.
+ 1 APPPATH\Controllers\Home.php(61): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "form-control"', 'C:\\xampp\\htdocs\\CIBERSHIFT\\app\\Controllers\\Home.php', 61)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->entrar()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-15 19:40:54 --> Undefined array key "form-control"
+in APPPATH\Controllers\Home.php on line 61.
+ 1 APPPATH\Controllers\Home.php(61): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "form-control"', 'C:\\xampp\\htdocs\\CIBERSHIFT\\app\\Controllers\\Home.php', 61)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->entrar()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-15 19:40:55 --> Undefined array key "form-control"
+in APPPATH\Controllers\Home.php on line 61.
+ 1 APPPATH\Controllers\Home.php(61): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "form-control"', 'C:\\xampp\\htdocs\\CIBERSHIFT\\app\\Controllers\\Home.php', 61)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->entrar()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-15 19:40:55 --> Undefined array key "form-control"
+in APPPATH\Controllers\Home.php on line 61.
+ 1 APPPATH\Controllers\Home.php(61): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "form-control"', 'C:\\xampp\\htdocs\\CIBERSHIFT\\app\\Controllers\\Home.php', 61)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->entrar()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-15 19:40:55 --> Undefined array key "form-control"
+in APPPATH\Controllers\Home.php on line 61.
+ 1 APPPATH\Controllers\Home.php(61): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "form-control"', 'C:\\xampp\\htdocs\\CIBERSHIFT\\app\\Controllers\\Home.php', 61)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->entrar()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-15 19:43:58 --> Undefined array key "form-control"
+in APPPATH\Controllers\Home.php on line 61.
+ 1 APPPATH\Controllers\Home.php(61): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "form-control"', 'C:\\xampp\\htdocs\\CIBERSHIFT\\app\\Controllers\\Home.php', 61)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->entrar()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-15 19:46:10 --> No database selected
+in APPPATH\Controllers\Home.php on line 65.
+ 1 APPPATH\Controllers\Home.php(65): mysqli_query(Object(mysqli), 'INSERT INTO contacto (nombre,apellido,correo,telefono,detalles) values (\'jaime\',\'pacheco\',\'pulidojose751@gmail.com\',\' 30054215514\',\' dgdgxdg \')')
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->entrar()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-15 19:46:11 --> No database selected
+in APPPATH\Controllers\Home.php on line 65.
+ 1 APPPATH\Controllers\Home.php(65): mysqli_query(Object(mysqli), 'INSERT INTO contacto (nombre,apellido,correo,telefono,detalles) values (\'jaime\',\'pacheco\',\'pulidojose751@gmail.com\',\' 30054215514\',\' dgdgxdg \')')
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->entrar()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-15 19:46:11 --> No database selected
+in APPPATH\Controllers\Home.php on line 65.
+ 1 APPPATH\Controllers\Home.php(65): mysqli_query(Object(mysqli), 'INSERT INTO contacto (nombre,apellido,correo,telefono,detalles) values (\'jaime\',\'pacheco\',\'pulidojose751@gmail.com\',\' 30054215514\',\' dgdgxdg \')')
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->entrar()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-15 19:46:11 --> No database selected
+in APPPATH\Controllers\Home.php on line 65.
+ 1 APPPATH\Controllers\Home.php(65): mysqli_query(Object(mysqli), 'INSERT INTO contacto (nombre,apellido,correo,telefono,detalles) values (\'jaime\',\'pacheco\',\'pulidojose751@gmail.com\',\' 30054215514\',\' dgdgxdg \')')
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->entrar()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-15 19:46:11 --> No database selected
+in APPPATH\Controllers\Home.php on line 65.
+ 1 APPPATH\Controllers\Home.php(65): mysqli_query(Object(mysqli), 'INSERT INTO contacto (nombre,apellido,correo,telefono,detalles) values (\'jaime\',\'pacheco\',\'pulidojose751@gmail.com\',\' 30054215514\',\' dgdgxdg \')')
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->entrar()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-15 19:46:12 --> No database selected
+in APPPATH\Controllers\Home.php on line 65.
+ 1 APPPATH\Controllers\Home.php(65): mysqli_query(Object(mysqli), 'INSERT INTO contacto (nombre,apellido,correo,telefono,detalles) values (\'jaime\',\'pacheco\',\'pulidojose751@gmail.com\',\' 30054215514\',\' dgdgxdg \')')
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->entrar()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-15 19:46:12 --> No database selected
+in APPPATH\Controllers\Home.php on line 65.
+ 1 APPPATH\Controllers\Home.php(65): mysqli_query(Object(mysqli), 'INSERT INTO contacto (nombre,apellido,correo,telefono,detalles) values (\'jaime\',\'pacheco\',\'pulidojose751@gmail.com\',\' 30054215514\',\' dgdgxdg \')')
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->entrar()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-15 19:46:12 --> No database selected
+in APPPATH\Controllers\Home.php on line 65.
+ 1 APPPATH\Controllers\Home.php(65): mysqli_query(Object(mysqli), 'INSERT INTO contacto (nombre,apellido,correo,telefono,detalles) values (\'jaime\',\'pacheco\',\'pulidojose751@gmail.com\',\' 30054215514\',\' dgdgxdg \')')
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->entrar()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-15 19:46:12 --> No database selected
+in APPPATH\Controllers\Home.php on line 65.
+ 1 APPPATH\Controllers\Home.php(65): mysqli_query(Object(mysqli), 'INSERT INTO contacto (nombre,apellido,correo,telefono,detalles) values (\'jaime\',\'pacheco\',\'pulidojose751@gmail.com\',\' 30054215514\',\' dgdgxdg \')')
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->entrar()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-15 19:46:12 --> No database selected
+in APPPATH\Controllers\Home.php on line 65.
+ 1 APPPATH\Controllers\Home.php(65): mysqli_query(Object(mysqli), 'INSERT INTO contacto (nombre,apellido,correo,telefono,detalles) values (\'jaime\',\'pacheco\',\'pulidojose751@gmail.com\',\' 30054215514\',\' dgdgxdg \')')
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->entrar()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-15 19:46:12 --> No database selected
+in APPPATH\Controllers\Home.php on line 65.
+ 1 APPPATH\Controllers\Home.php(65): mysqli_query(Object(mysqli), 'INSERT INTO contacto (nombre,apellido,correo,telefono,detalles) values (\'jaime\',\'pacheco\',\'pulidojose751@gmail.com\',\' 30054215514\',\' dgdgxdg \')')
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->entrar()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-15 19:46:12 --> No database selected
+in APPPATH\Controllers\Home.php on line 65.
+ 1 APPPATH\Controllers\Home.php(65): mysqli_query(Object(mysqli), 'INSERT INTO contacto (nombre,apellido,correo,telefono,detalles) values (\'jaime\',\'pacheco\',\'pulidojose751@gmail.com\',\' 30054215514\',\' dgdgxdg \')')
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->entrar()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-15 19:46:13 --> No database selected
+in APPPATH\Controllers\Home.php on line 65.
+ 1 APPPATH\Controllers\Home.php(65): mysqli_query(Object(mysqli), 'INSERT INTO contacto (nombre,apellido,correo,telefono,detalles) values (\'jaime\',\'pacheco\',\'pulidojose751@gmail.com\',\' 30054215514\',\' dgdgxdg \')')
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->entrar()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-15 19:46:13 --> No database selected
+in APPPATH\Controllers\Home.php on line 65.
+ 1 APPPATH\Controllers\Home.php(65): mysqli_query(Object(mysqli), 'INSERT INTO contacto (nombre,apellido,correo,telefono,detalles) values (\'jaime\',\'pacheco\',\'pulidojose751@gmail.com\',\' 30054215514\',\' dgdgxdg \')')
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->entrar()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-15 19:50:16 --> No database selected
+in APPPATH\Controllers\Home.php on line 65.
+ 1 APPPATH\Controllers\Home.php(65): mysqli_query(Object(mysqli), 'INSERT INTO contacto (nombre,apellido,correo,telefono,detalles) values (\'jaime\',\'pacheco\',\'pulidojose751@gmail.com\',\' 30054215514\',\' dgdgxdg \')')
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->entrar()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-15 19:50:16 --> No database selected
+in APPPATH\Controllers\Home.php on line 65.
+ 1 APPPATH\Controllers\Home.php(65): mysqli_query(Object(mysqli), 'INSERT INTO contacto (nombre,apellido,correo,telefono,detalles) values (\'jaime\',\'pacheco\',\'pulidojose751@gmail.com\',\' 30054215514\',\' dgdgxdg \')')
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->entrar()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-15 19:50:17 --> No database selected
+in APPPATH\Controllers\Home.php on line 65.
+ 1 APPPATH\Controllers\Home.php(65): mysqli_query(Object(mysqli), 'INSERT INTO contacto (nombre,apellido,correo,telefono,detalles) values (\'jaime\',\'pacheco\',\'pulidojose751@gmail.com\',\' 30054215514\',\' dgdgxdg \')')
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->entrar()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-15 19:50:17 --> No database selected
+in APPPATH\Controllers\Home.php on line 65.
+ 1 APPPATH\Controllers\Home.php(65): mysqli_query(Object(mysqli), 'INSERT INTO contacto (nombre,apellido,correo,telefono,detalles) values (\'jaime\',\'pacheco\',\'pulidojose751@gmail.com\',\' 30054215514\',\' dgdgxdg \')')
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->entrar()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-15 19:54:05 --> No database selected
+in APPPATH\Controllers\Home.php on line 65.
+ 1 APPPATH\Controllers\Home.php(65): mysqli_query(Object(mysqli), 'INSERT INTO contacto (nombre,apellido,correo,telefono,detalles) values (\'jaime\',\'pacheco\',\'pulidojose751@gmail.com\',\' 30054215514\',\' erwr2w32 \')')
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->entrar()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-15 19:54:16 --> No database selected
+in APPPATH\Controllers\Home.php on line 65.
+ 1 APPPATH\Controllers\Home.php(65): mysqli_query(Object(mysqli), 'INSERT INTO contacto (nombre,apellido,correo,telefono,detalles) values (\'jaime\',\'pacheco\',\'pulidojose751@gmail.com\',\' 30054215514\',\' erwr2w32 \')')
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->entrar()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-15 19:54:17 --> No database selected
+in APPPATH\Controllers\Home.php on line 65.
+ 1 APPPATH\Controllers\Home.php(65): mysqli_query(Object(mysqli), 'INSERT INTO contacto (nombre,apellido,correo,telefono,detalles) values (\'jaime\',\'pacheco\',\'pulidojose751@gmail.com\',\' 30054215514\',\' erwr2w32 \')')
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->entrar()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-15 19:54:17 --> No database selected
+in APPPATH\Controllers\Home.php on line 65.
+ 1 APPPATH\Controllers\Home.php(65): mysqli_query(Object(mysqli), 'INSERT INTO contacto (nombre,apellido,correo,telefono,detalles) values (\'jaime\',\'pacheco\',\'pulidojose751@gmail.com\',\' 30054215514\',\' erwr2w32 \')')
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->entrar()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-15 19:54:42 --> No database selected
+in APPPATH\Controllers\Home.php on line 65.
+ 1 APPPATH\Controllers\Home.php(65): mysqli_query(Object(mysqli), 'INSERT INTO contacto (nombre,apellido,correo,telefono,detalles) values (\'jaime\',\'pacheco\',\'pulidojose751@gmail.com\',\' 30054215514\',\' gsdfg \')')
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->entrar()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-15 19:54:43 --> No database selected
+in APPPATH\Controllers\Home.php on line 65.
+ 1 APPPATH\Controllers\Home.php(65): mysqli_query(Object(mysqli), 'INSERT INTO contacto (nombre,apellido,correo,telefono,detalles) values (\'jaime\',\'pacheco\',\'pulidojose751@gmail.com\',\' 30054215514\',\' gsdfg \')')
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->entrar()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-15 19:54:43 --> No database selected
+in APPPATH\Controllers\Home.php on line 65.
+ 1 APPPATH\Controllers\Home.php(65): mysqli_query(Object(mysqli), 'INSERT INTO contacto (nombre,apellido,correo,telefono,detalles) values (\'jaime\',\'pacheco\',\'pulidojose751@gmail.com\',\' 30054215514\',\' gsdfg \')')
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->entrar()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-15 19:54:43 --> No database selected
+in APPPATH\Controllers\Home.php on line 65.
+ 1 APPPATH\Controllers\Home.php(65): mysqli_query(Object(mysqli), 'INSERT INTO contacto (nombre,apellido,correo,telefono,detalles) values (\'jaime\',\'pacheco\',\'pulidojose751@gmail.com\',\' 30054215514\',\' gsdfg \')')
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->entrar()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-15 19:54:44 --> No database selected
+in APPPATH\Controllers\Home.php on line 65.
+ 1 APPPATH\Controllers\Home.php(65): mysqli_query(Object(mysqli), 'INSERT INTO contacto (nombre,apellido,correo,telefono,detalles) values (\'jaime\',\'pacheco\',\'pulidojose751@gmail.com\',\' 30054215514\',\' gsdfg \')')
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->entrar()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-15 19:54:44 --> No database selected
+in APPPATH\Controllers\Home.php on line 65.
+ 1 APPPATH\Controllers\Home.php(65): mysqli_query(Object(mysqli), 'INSERT INTO contacto (nombre,apellido,correo,telefono,detalles) values (\'jaime\',\'pacheco\',\'pulidojose751@gmail.com\',\' 30054215514\',\' gsdfg \')')
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->entrar()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-15 19:55:45 --> No database selected
+in APPPATH\Controllers\Home.php on line 65.
+ 1 APPPATH\Controllers\Home.php(65): mysqli_query(Object(mysqli), 'INSERT INTO contacto (nombre,apellido,correo,telefono,detalles) values (\'jaime\',\'pacheco\',\'pulidojose751@gmail.com\',\' 31030701528\',\' rgsfdgsed \')')
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->entrar()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-15 19:56:40 --> No database selected
+in APPPATH\Controllers\Home.php on line 65.
+ 1 APPPATH\Controllers\Home.php(65): mysqli_query(Object(mysqli), 'INSERT INTO contacto (nombre,apellido,correo,telefono,detalles) values (\'jaime\',\'pacheco\',\'pulidojose751@gmail.com\',\' 31030701528\',\' rgsfdgsed \')')
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->entrar()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-15 19:57:00 --> No database selected
+in APPPATH\Controllers\Home.php on line 65.
+ 1 APPPATH\Controllers\Home.php(65): mysqli_query(Object(mysqli), 'INSERT INTO contacto (nombre,apellido,correo,telefono,detalles) values (\'jaime\',\'pacheco\',\'pulidojose751@gmail.com\',\' 31030701528\',\' rgsfdgsed \')')
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->entrar()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-15 19:59:55 --> Undefined variable $databse
+in APPPATH\Controllers\Home.php on line 56.
+ 1 APPPATH\Controllers\Home.php(56): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $databse', 'C:\\xampp\\htdocs\\CIBERSHIFT\\app\\Controllers\\Home.php', 56)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->entrar()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-15 20:00:11 --> Unknown column 'nombre' in 'field list'
+in APPPATH\Controllers\Home.php on line 67.
+ 1 APPPATH\Controllers\Home.php(67): mysqli_query(Object(mysqli), 'INSERT INTO contacto (nombre,apellido,correo,telefono,detalles) values (\'jaime\',\'pacheco\',\'pulidojose751@gmail.com\',\' 30054215514\',\' sffww \')')
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->entrar()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-15 20:03:35 --> Undefined variable $nombre
+in APPPATH\Controllers\Home.php on line 65.
+ 1 APPPATH\Controllers\Home.php(65): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $nombre', 'C:\\xampp\\htdocs\\CIBERSHIFT\\app\\Controllers\\Home.php', 65)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->entrar()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-15 20:23:43 --> Call to undefined method CodeIgniter\Router\RouteCollection::x()
+in APPPATH\Config\Routes.php on line 36.
+ 1 SYSTEMPATH\Router\RouteCollection.php(267): require()
+ 2 SYSTEMPATH\CodeIgniter.php(802): CodeIgniter\Router\RouteCollection->loadRoutes()
+ 3 SYSTEMPATH\CodeIgniter.php(449): CodeIgniter\CodeIgniter->tryToRouteIt(null)
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-15 20:23:45 --> Call to undefined method CodeIgniter\Router\RouteCollection::x()
+in APPPATH\Config\Routes.php on line 36.
+ 1 SYSTEMPATH\Router\RouteCollection.php(267): require()
+ 2 SYSTEMPATH\CodeIgniter.php(802): CodeIgniter\Router\RouteCollection->loadRoutes()
+ 3 SYSTEMPATH\CodeIgniter.php(449): CodeIgniter\CodeIgniter->tryToRouteIt(null)
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-15 20:29:36 --> Invalid file: "appointment.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('appointment.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('appointment', [], true)
+ 3 APPPATH\Controllers\Home.php(17): view('appointment')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->appointment()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-15 20:57:52 --> Undefined array key "time"
+in APPPATH\Controllers\Home.php on line 37.
+ 1 APPPATH\Controllers\Home.php(37): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "time"', 'C:\\xampp\\htdocs\\CIBERSHIFT\\app\\Controllers\\Home.php', 37)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->cita()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-15 20:58:33 --> Undefined array key "time"
+in APPPATH\Controllers\Home.php on line 37.
+ 1 APPPATH\Controllers\Home.php(37): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "time"', 'C:\\xampp\\htdocs\\CIBERSHIFT\\app\\Controllers\\Home.php', 37)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->cita()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-15 20:58:36 --> Undefined array key "time"
+in APPPATH\Controllers\Home.php on line 37.
+ 1 APPPATH\Controllers\Home.php(37): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "time"', 'C:\\xampp\\htdocs\\CIBERSHIFT\\app\\Controllers\\Home.php', 37)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->cita()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-15 20:59:47 --> Undefined array key "time"
+in APPPATH\Controllers\Home.php on line 37.
+ 1 APPPATH\Controllers\Home.php(37): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "time"', 'C:\\xampp\\htdocs\\CIBERSHIFT\\app\\Controllers\\Home.php', 37)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->cita()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

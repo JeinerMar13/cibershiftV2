@@ -1,0 +1,49 @@
+CRITICAL - 2023-05-16 18:49:54 --> Undefined array key "tiempos"
+in APPPATH\Controllers\Home.php on line 37.
+ 1 APPPATH\Controllers\Home.php(37): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "tiempos"', 'C:\\xampp\\htdocs\\CIBERSHIFT\\app\\Controllers\\Home.php', 37)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->cita()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-16 18:50:08 --> Undefined array key "tiempos"
+in APPPATH\Controllers\Home.php on line 37.
+ 1 APPPATH\Controllers\Home.php(37): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "tiempos"', 'C:\\xampp\\htdocs\\CIBERSHIFT\\app\\Controllers\\Home.php', 37)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->cita()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-16 18:53:23 --> Undefined array key "tiempos"
+in APPPATH\Controllers\Home.php on line 37.
+ 1 APPPATH\Controllers\Home.php(37): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "tiempos"', 'C:\\xampp\\htdocs\\CIBERSHIFT\\app\\Controllers\\Home.php', 37)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->cita()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-16 18:54:06 --> Undefined array key "tiempos"
+in APPPATH\Controllers\Home.php on line 37.
+ 1 APPPATH\Controllers\Home.php(37): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "tiempos"', 'C:\\xampp\\htdocs\\CIBERSHIFT\\app\\Controllers\\Home.php', 37)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->cita()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-16 18:54:56 --> Undefined array key "tiempos"
+in APPPATH\Controllers\Home.php on line 37.
+ 1 APPPATH\Controllers\Home.php(37): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "tiempos"', 'C:\\xampp\\htdocs\\CIBERSHIFT\\app\\Controllers\\Home.php', 37)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->cita()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-16 18:55:44 --> Undefined array key "tiempos"
+in APPPATH\Controllers\Home.php on line 37.
+ 1 APPPATH\Controllers\Home.php(37): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "tiempos"', 'C:\\xampp\\htdocs\\CIBERSHIFT\\app\\Controllers\\Home.php', 37)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->cita()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-16 18:55:54 --> Undefined array key "tiempos"
+in APPPATH\Controllers\Home.php on line 37.
+ 1 APPPATH\Controllers\Home.php(37): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "tiempos"', 'C:\\xampp\\htdocs\\CIBERSHIFT\\app\\Controllers\\Home.php', 37)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->cita()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

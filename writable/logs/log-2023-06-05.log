@@ -1,0 +1,19 @@
+CRITICAL - 2023-06-05 19:30:00 --> Object of class App\Models\Usuario could not be converted to string
+in SYSTEMPATH\Database\Query.php on line 335.
+ 1 SYSTEMPATH\Database\Query.php(335): strtr('SELECT *
+FROM `t_usuario`
+WHERE `usuario` = :usuario:', [...])
+ 2 SYSTEMPATH\Database\Query.php(310): CodeIgniter\Database\Query->matchNamedBinds('SELECT *
+FROM `t_usuario`
+WHERE `usuario` = :usuario:', [...])
+ 3 SYSTEMPATH\Database\Query.php(159): CodeIgniter\Database\Query->compileBinds()
+ 4 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\Query->getQuery()
+ 5 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `t_usuario`
+WHERE `usuario` = :usuario:', [...], false)
+ 6 APPPATH\Models\Usuario.php(9): CodeIgniter\Database\BaseBuilder->get()
+ 7 APPPATH\Controllers\Home.php(93): App\Models\Usuario->obtenerusuario([...])
+ 8 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->login()
+ 9 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+10 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

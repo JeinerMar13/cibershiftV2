@@ -1,0 +1,1477 @@
+CRITICAL - 2023-05-29 18:29:56 --> Invalid file: "contac.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('contac.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('contac', [], true)
+ 3 APPPATH\Controllers\Home.php(128): view('contac')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->contact()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-29 18:30:56 --> Invalid file: "contac.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('contac.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('contac', [], true)
+ 3 APPPATH\Controllers\Home.php(128): view('contac')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->contact()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-29 18:38:16 --> Duplicate entry 'jaimepeacheco@gmail.' for key 'PRIMARY'
+in APPPATH\Controllers\Home.php on line 151.
+ 1 APPPATH\Controllers\Home.php(151): mysqli_query(Object(mysqli), 'INSERT INTO ingresar (email,contraseña) values (\'jaimepeacheco@gmail.com\',\'121212\')')
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->ingresar()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-29 18:56:01 --> Duplicate entry 'jaime@gmail.com' for key 'PRIMARY'
+in APPPATH\Controllers\Home.php on line 159.
+ 1 APPPATH\Controllers\Home.php(159): mysqli_query(Object(mysqli), 'INSERT INTO ingresar (email,contraseña) values (\'jaime@gmail.com\',\'123\')')
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->ingresar()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-29 19:01:19 --> Duplicate entry 'jaimepeacheco@gmail.' for key 'PRIMARY'
+in APPPATH\Controllers\Home.php on line 159.
+ 1 APPPATH\Controllers\Home.php(159): mysqli_query(Object(mysqli), 'INSERT INTO ingresar (email,contraseña) values (\'jaimepeacheco@gmail.com\',\'123\')')
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->ingresar()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-29 19:31:38 --> syntax error, unexpected token "{", expecting "function" or "const"
+in APPPATH\Controllers\Home.php on line 119.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\CIBERSHIFT\\app\\Controllers\\Home.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Home')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Home')
+ 4 SYSTEMPATH\CodeIgniter.php(892): class_exists('\\App\\Controllers\\Home', true)
+ 5 SYSTEMPATH\CodeIgniter.php(486): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-29 19:31:46 --> syntax error, unexpected token "{", expecting "function" or "const"
+in APPPATH\Controllers\Home.php on line 119.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\CIBERSHIFT\\app\\Controllers\\Home.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Home')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Home')
+ 4 SYSTEMPATH\CodeIgniter.php(892): class_exists('\\App\\Controllers\\Home', true)
+ 5 SYSTEMPATH\CodeIgniter.php(486): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-29 19:31:47 --> syntax error, unexpected token "{", expecting "function" or "const"
+in APPPATH\Controllers\Home.php on line 119.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\CIBERSHIFT\\app\\Controllers\\Home.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Home')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Home')
+ 4 SYSTEMPATH\CodeIgniter.php(892): class_exists('\\App\\Controllers\\Home', true)
+ 5 SYSTEMPATH\CodeIgniter.php(486): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-29 19:31:47 --> syntax error, unexpected token "{", expecting "function" or "const"
+in APPPATH\Controllers\Home.php on line 119.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\CIBERSHIFT\\app\\Controllers\\Home.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Home')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Home')
+ 4 SYSTEMPATH\CodeIgniter.php(892): class_exists('\\App\\Controllers\\Home', true)
+ 5 SYSTEMPATH\CodeIgniter.php(486): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-29 19:31:47 --> syntax error, unexpected token "{", expecting "function" or "const"
+in APPPATH\Controllers\Home.php on line 119.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\CIBERSHIFT\\app\\Controllers\\Home.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Home')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Home')
+ 4 SYSTEMPATH\CodeIgniter.php(892): class_exists('\\App\\Controllers\\Home', true)
+ 5 SYSTEMPATH\CodeIgniter.php(486): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-29 19:31:47 --> syntax error, unexpected token "{", expecting "function" or "const"
+in APPPATH\Controllers\Home.php on line 119.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\CIBERSHIFT\\app\\Controllers\\Home.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Home')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Home')
+ 4 SYSTEMPATH\CodeIgniter.php(892): class_exists('\\App\\Controllers\\Home', true)
+ 5 SYSTEMPATH\CodeIgniter.php(486): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-29 19:31:48 --> syntax error, unexpected token "{", expecting "function" or "const"
+in APPPATH\Controllers\Home.php on line 119.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\CIBERSHIFT\\app\\Controllers\\Home.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Home')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Home')
+ 4 SYSTEMPATH\CodeIgniter.php(892): class_exists('\\App\\Controllers\\Home', true)
+ 5 SYSTEMPATH\CodeIgniter.php(486): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-29 19:31:57 --> syntax error, unexpected token "{", expecting "function" or "const"
+in APPPATH\Controllers\Home.php on line 119.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\CIBERSHIFT\\app\\Controllers\\Home.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Home')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Home')
+ 4 SYSTEMPATH\CodeIgniter.php(892): class_exists('\\App\\Controllers\\Home', true)
+ 5 SYSTEMPATH\CodeIgniter.php(486): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-29 19:32:01 --> syntax error, unexpected token "{", expecting "function" or "const"
+in APPPATH\Controllers\Home.php on line 119.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\CIBERSHIFT\\app\\Controllers\\Home.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Home')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Home')
+ 4 SYSTEMPATH\CodeIgniter.php(892): class_exists('\\App\\Controllers\\Home', true)
+ 5 SYSTEMPATH\CodeIgniter.php(486): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-29 19:32:07 --> syntax error, unexpected token "{", expecting "function" or "const"
+in APPPATH\Controllers\Home.php on line 119.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\CIBERSHIFT\\app\\Controllers\\Home.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Home')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Home')
+ 4 SYSTEMPATH\CodeIgniter.php(892): class_exists('\\App\\Controllers\\Home', true)
+ 5 SYSTEMPATH\CodeIgniter.php(486): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-05-29 19:35:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-29 19:35:37 --> Undefined variable $mensaje
+in APPPATH\Controllers\Home.php on line 121.
+ 1 APPPATH\Controllers\Home.php(121): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $mensaje', 'C:\\xampp\\htdocs\\CIBERSHIFT\\app\\Controllers\\Home.php', 121)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->login()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-05-29 19:35:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-29 19:35:38 --> Undefined variable $mensaje
+in APPPATH\Controllers\Home.php on line 121.
+ 1 APPPATH\Controllers\Home.php(121): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $mensaje', 'C:\\xampp\\htdocs\\CIBERSHIFT\\app\\Controllers\\Home.php', 121)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->login()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-05-29 19:35:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-29 19:35:38 --> Undefined variable $mensaje
+in APPPATH\Controllers\Home.php on line 121.
+ 1 APPPATH\Controllers\Home.php(121): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $mensaje', 'C:\\xampp\\htdocs\\CIBERSHIFT\\app\\Controllers\\Home.php', 121)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->login()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-05-29 19:35:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-29 19:35:38 --> Undefined variable $mensaje
+in APPPATH\Controllers\Home.php on line 121.
+ 1 APPPATH\Controllers\Home.php(121): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $mensaje', 'C:\\xampp\\htdocs\\CIBERSHIFT\\app\\Controllers\\Home.php', 121)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->login()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-05-29 19:35:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-29 19:35:38 --> Undefined variable $mensaje
+in APPPATH\Controllers\Home.php on line 121.
+ 1 APPPATH\Controllers\Home.php(121): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $mensaje', 'C:\\xampp\\htdocs\\CIBERSHIFT\\app\\Controllers\\Home.php', 121)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->login()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-05-29 19:35:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-29 19:35:39 --> Undefined variable $mensaje
+in APPPATH\Controllers\Home.php on line 121.
+ 1 APPPATH\Controllers\Home.php(121): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $mensaje', 'C:\\xampp\\htdocs\\CIBERSHIFT\\app\\Controllers\\Home.php', 121)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->login()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-05-29 19:35:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-29 19:35:39 --> Undefined variable $mensaje
+in APPPATH\Controllers\Home.php on line 121.
+ 1 APPPATH\Controllers\Home.php(121): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $mensaje', 'C:\\xampp\\htdocs\\CIBERSHIFT\\app\\Controllers\\Home.php', 121)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->login()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-05-29 19:35:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-29 19:35:39 --> Undefined variable $mensaje
+in APPPATH\Controllers\Home.php on line 121.
+ 1 APPPATH\Controllers\Home.php(121): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $mensaje', 'C:\\xampp\\htdocs\\CIBERSHIFT\\app\\Controllers\\Home.php', 121)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->login()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-05-29 19:35:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-29 19:35:39 --> Undefined variable $mensaje
+in APPPATH\Controllers\Home.php on line 121.
+ 1 APPPATH\Controllers\Home.php(121): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $mensaje', 'C:\\xampp\\htdocs\\CIBERSHIFT\\app\\Controllers\\Home.php', 121)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->login()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-05-29 19:35:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-29 19:35:39 --> Undefined variable $mensaje
+in APPPATH\Controllers\Home.php on line 121.
+ 1 APPPATH\Controllers\Home.php(121): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $mensaje', 'C:\\xampp\\htdocs\\CIBERSHIFT\\app\\Controllers\\Home.php', 121)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->login()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-05-29 19:35:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-29 19:35:39 --> Undefined variable $mensaje
+in APPPATH\Controllers\Home.php on line 121.
+ 1 APPPATH\Controllers\Home.php(121): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $mensaje', 'C:\\xampp\\htdocs\\CIBERSHIFT\\app\\Controllers\\Home.php', 121)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->login()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-05-29 19:35:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-29 19:35:39 --> Undefined variable $mensaje
+in APPPATH\Controllers\Home.php on line 121.
+ 1 APPPATH\Controllers\Home.php(121): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $mensaje', 'C:\\xampp\\htdocs\\CIBERSHIFT\\app\\Controllers\\Home.php', 121)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->login()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-05-29 19:35:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-29 19:35:46 --> Undefined variable $mensaje
+in APPPATH\Controllers\Home.php on line 121.
+ 1 APPPATH\Controllers\Home.php(121): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $mensaje', 'C:\\xampp\\htdocs\\CIBERSHIFT\\app\\Controllers\\Home.php', 121)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->login()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-05-29 19:35:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-29 19:35:56 --> Undefined variable $mensaje
+in APPPATH\Controllers\Home.php on line 121.
+ 1 APPPATH\Controllers\Home.php(121): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $mensaje', 'C:\\xampp\\htdocs\\CIBERSHIFT\\app\\Controllers\\Home.php', 121)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->login()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-05-29 19:36:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-29 19:36:26 --> Undefined variable $mensaje
+in APPPATH\Controllers\Home.php on line 114.
+ 1 APPPATH\Controllers\Home.php(114): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $mensaje', 'C:\\xampp\\htdocs\\CIBERSHIFT\\app\\Controllers\\Home.php', 114)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->login()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-05-29 19:36:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-29 19:36:26 --> Undefined variable $mensaje
+in APPPATH\Controllers\Home.php on line 114.
+ 1 APPPATH\Controllers\Home.php(114): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $mensaje', 'C:\\xampp\\htdocs\\CIBERSHIFT\\app\\Controllers\\Home.php', 114)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->login()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-05-29 19:36:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-29 19:36:26 --> Undefined variable $mensaje
+in APPPATH\Controllers\Home.php on line 114.
+ 1 APPPATH\Controllers\Home.php(114): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $mensaje', 'C:\\xampp\\htdocs\\CIBERSHIFT\\app\\Controllers\\Home.php', 114)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->login()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-05-29 19:36:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-29 19:36:30 --> Undefined variable $mensaje
+in APPPATH\Controllers\Home.php on line 114.
+ 1 APPPATH\Controllers\Home.php(114): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $mensaje', 'C:\\xampp\\htdocs\\CIBERSHIFT\\app\\Controllers\\Home.php', 114)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->login()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-05-29 19:50:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-29 19:50:59 --> Undefined variable $mensaje
+in APPPATH\Controllers\Home.php on line 121.
+ 1 APPPATH\Controllers\Home.php(121): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $mensaje', 'C:\\xampp\\htdocs\\CIBERSHIFT\\app\\Controllers\\Home.php', 121)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->login()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-05-29 19:51:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-29 19:53:40 --> Unknown column 'contraseña' in 'field list'
+in APPPATH\Controllers\Home.php on line 161.
+ 1 APPPATH\Controllers\Home.php(161): mysqli_query(Object(mysqli), 'INSERT INTO ingresar (email,contraseña) values (\'admin@gmail.com\',\' 123\')')
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->ingresar()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-05-29 19:54:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-29 19:54:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-29 19:55:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-29 19:55:35 --> syntax error, unexpected variable "$email", expecting ";" or "{"
+in APPPATH\Controllers\Home.php on line 87.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\CIBERSHIFT\\app\\Controllers\\Home.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Home')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Home')
+ 4 SYSTEMPATH\CodeIgniter.php(892): class_exists('\\App\\Controllers\\Home', true)
+ 5 SYSTEMPATH\CodeIgniter.php(486): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-29 19:55:37 --> syntax error, unexpected variable "$email", expecting ";" or "{"
+in APPPATH\Controllers\Home.php on line 87.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\CIBERSHIFT\\app\\Controllers\\Home.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Home')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Home')
+ 4 SYSTEMPATH\CodeIgniter.php(892): class_exists('\\App\\Controllers\\Home', true)
+ 5 SYSTEMPATH\CodeIgniter.php(486): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-29 19:55:37 --> syntax error, unexpected variable "$email", expecting ";" or "{"
+in APPPATH\Controllers\Home.php on line 87.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\CIBERSHIFT\\app\\Controllers\\Home.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Home')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Home')
+ 4 SYSTEMPATH\CodeIgniter.php(892): class_exists('\\App\\Controllers\\Home', true)
+ 5 SYSTEMPATH\CodeIgniter.php(486): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-29 19:55:37 --> syntax error, unexpected variable "$email", expecting ";" or "{"
+in APPPATH\Controllers\Home.php on line 87.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\CIBERSHIFT\\app\\Controllers\\Home.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Home')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Home')
+ 4 SYSTEMPATH\CodeIgniter.php(892): class_exists('\\App\\Controllers\\Home', true)
+ 5 SYSTEMPATH\CodeIgniter.php(486): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-29 19:55:37 --> syntax error, unexpected variable "$email", expecting ";" or "{"
+in APPPATH\Controllers\Home.php on line 87.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\CIBERSHIFT\\app\\Controllers\\Home.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Home')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Home')
+ 4 SYSTEMPATH\CodeIgniter.php(892): class_exists('\\App\\Controllers\\Home', true)
+ 5 SYSTEMPATH\CodeIgniter.php(486): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-05-29 19:55:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-29 19:56:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-29 19:57:23 --> Class "App\Controllers\Usuario" not found
+in APPPATH\Controllers\Home.php on line 89.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->login()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-29 19:57:29 --> Class "App\Controllers\Usuario" not found
+in APPPATH\Controllers\Home.php on line 89.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->login()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-29 19:58:27 --> Class "App\Controllers\Usuario" not found
+in APPPATH\Controllers\Home.php on line 89.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->login()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-29 19:58:27 --> Class "App\Controllers\Usuario" not found
+in APPPATH\Controllers\Home.php on line 89.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->login()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-29 19:58:28 --> Class "App\Controllers\Usuario" not found
+in APPPATH\Controllers\Home.php on line 89.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->login()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-29 19:58:28 --> Class "App\Controllers\Usuario" not found
+in APPPATH\Controllers\Home.php on line 89.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->login()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-29 19:58:28 --> Class "App\Controllers\Usuario" not found
+in APPPATH\Controllers\Home.php on line 89.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->login()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-29 19:59:08 --> Class "App\Controllers\Usuario" not found
+in APPPATH\Controllers\Home.php on line 89.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->login()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-29 19:59:11 --> Class "App\Controllers\Usuario" not found
+in APPPATH\Controllers\Home.php on line 89.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->login()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-29 20:05:38 --> Class "App\Controllers\Usuario" not found
+in APPPATH\Controllers\Home.php on line 89.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->login()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-29 20:05:41 --> Class "App\Controllers\Usuario" not found
+in APPPATH\Controllers\Home.php on line 89.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->login()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-29 20:05:42 --> Class "App\Controllers\Usuario" not found
+in APPPATH\Controllers\Home.php on line 89.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->login()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-29 20:05:42 --> Class "App\Controllers\Usuario" not found
+in APPPATH\Controllers\Home.php on line 89.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->login()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-29 20:05:43 --> Class "App\Controllers\Usuario" not found
+in APPPATH\Controllers\Home.php on line 89.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->login()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-29 20:05:43 --> Class "App\Controllers\Usuario" not found
+in APPPATH\Controllers\Home.php on line 89.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->login()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-29 20:05:43 --> Class "App\Controllers\Usuario" not found
+in APPPATH\Controllers\Home.php on line 89.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->login()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-29 20:05:43 --> Class "App\Controllers\Usuario" not found
+in APPPATH\Controllers\Home.php on line 89.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->login()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-29 20:05:43 --> Class "App\Controllers\Usuario" not found
+in APPPATH\Controllers\Home.php on line 89.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->login()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-29 20:05:44 --> Class "App\Controllers\Usuario" not found
+in APPPATH\Controllers\Home.php on line 89.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->login()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-29 20:05:44 --> Class "App\Controllers\Usuario" not found
+in APPPATH\Controllers\Home.php on line 89.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->login()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-29 20:05:44 --> Class "App\Controllers\Usuario" not found
+in APPPATH\Controllers\Home.php on line 89.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->login()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-29 20:13:08 --> Class "App\Controllers\Usuario" not found
+in APPPATH\Controllers\Home.php on line 89.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->login()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-29 20:15:56 --> Class "App\Controllers\Usuario" not found
+in APPPATH\Controllers\Home.php on line 89.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->login()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-29 20:17:17 --> Object of class App\Models\Usuario could not be converted to string
+in SYSTEMPATH\Database\Query.php on line 335.
+ 1 SYSTEMPATH\Database\Query.php(335): strtr('SELECT *
+FROM `t_usuario`
+WHERE `usuario` = :usuario:', [...])
+ 2 SYSTEMPATH\Database\Query.php(310): CodeIgniter\Database\Query->matchNamedBinds('SELECT *
+FROM `t_usuario`
+WHERE `usuario` = :usuario:', [...])
+ 3 SYSTEMPATH\Database\Query.php(159): CodeIgniter\Database\Query->compileBinds()
+ 4 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\Query->getQuery()
+ 5 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `t_usuario`
+WHERE `usuario` = :usuario:', [...], false)
+ 6 APPPATH\Models\Usuario.php(9): CodeIgniter\Database\BaseBuilder->get()
+ 7 APPPATH\Controllers\Home.php(93): App\Models\Usuario->obtenerusuario([...])
+ 8 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->login()
+ 9 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+10 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-29 20:17:26 --> Object of class App\Models\Usuario could not be converted to string
+in SYSTEMPATH\Database\Query.php on line 335.
+ 1 SYSTEMPATH\Database\Query.php(335): strtr('SELECT *
+FROM `t_usuario`
+WHERE `usuario` = :usuario:', [...])
+ 2 SYSTEMPATH\Database\Query.php(310): CodeIgniter\Database\Query->matchNamedBinds('SELECT *
+FROM `t_usuario`
+WHERE `usuario` = :usuario:', [...])
+ 3 SYSTEMPATH\Database\Query.php(159): CodeIgniter\Database\Query->compileBinds()
+ 4 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\Query->getQuery()
+ 5 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `t_usuario`
+WHERE `usuario` = :usuario:', [...], false)
+ 6 APPPATH\Models\Usuario.php(9): CodeIgniter\Database\BaseBuilder->get()
+ 7 APPPATH\Controllers\Home.php(93): App\Models\Usuario->obtenerusuario([...])
+ 8 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->login()
+ 9 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+10 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-29 20:18:42 --> Object of class App\Models\Usuario could not be converted to string
+in SYSTEMPATH\Database\Query.php on line 335.
+ 1 SYSTEMPATH\Database\Query.php(335): strtr('SELECT *
+FROM `t_usuario`
+WHERE `usuario` = :usuario:', [...])
+ 2 SYSTEMPATH\Database\Query.php(310): CodeIgniter\Database\Query->matchNamedBinds('SELECT *
+FROM `t_usuario`
+WHERE `usuario` = :usuario:', [...])
+ 3 SYSTEMPATH\Database\Query.php(159): CodeIgniter\Database\Query->compileBinds()
+ 4 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\Query->getQuery()
+ 5 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `t_usuario`
+WHERE `usuario` = :usuario:', [...], false)
+ 6 APPPATH\Models\Usuario.php(9): CodeIgniter\Database\BaseBuilder->get()
+ 7 APPPATH\Controllers\Home.php(93): App\Models\Usuario->obtenerusuario([...])
+ 8 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->login()
+ 9 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+10 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-29 20:18:44 --> Object of class App\Models\Usuario could not be converted to string
+in SYSTEMPATH\Database\Query.php on line 335.
+ 1 SYSTEMPATH\Database\Query.php(335): strtr('SELECT *
+FROM `t_usuario`
+WHERE `usuario` = :usuario:', [...])
+ 2 SYSTEMPATH\Database\Query.php(310): CodeIgniter\Database\Query->matchNamedBinds('SELECT *
+FROM `t_usuario`
+WHERE `usuario` = :usuario:', [...])
+ 3 SYSTEMPATH\Database\Query.php(159): CodeIgniter\Database\Query->compileBinds()
+ 4 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\Query->getQuery()
+ 5 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `t_usuario`
+WHERE `usuario` = :usuario:', [...], false)
+ 6 APPPATH\Models\Usuario.php(9): CodeIgniter\Database\BaseBuilder->get()
+ 7 APPPATH\Controllers\Home.php(93): App\Models\Usuario->obtenerusuario([...])
+ 8 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->login()
+ 9 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+10 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-29 20:19:51 --> Object of class App\Models\Usuario could not be converted to string
+in SYSTEMPATH\Database\Query.php on line 335.
+ 1 SYSTEMPATH\Database\Query.php(335): strtr('SELECT *
+FROM `t_usuario`
+WHERE `usuario` = :usuario:', [...])
+ 2 SYSTEMPATH\Database\Query.php(310): CodeIgniter\Database\Query->matchNamedBinds('SELECT *
+FROM `t_usuario`
+WHERE `usuario` = :usuario:', [...])
+ 3 SYSTEMPATH\Database\Query.php(159): CodeIgniter\Database\Query->compileBinds()
+ 4 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\Query->getQuery()
+ 5 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `t_usuario`
+WHERE `usuario` = :usuario:', [...], false)
+ 6 APPPATH\Models\Usuario.php(9): CodeIgniter\Database\BaseBuilder->get()
+ 7 APPPATH\Controllers\Home.php(93): App\Models\Usuario->obtenerusuario([...])
+ 8 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->login()
+ 9 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+10 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-29 20:19:52 --> Object of class App\Models\Usuario could not be converted to string
+in SYSTEMPATH\Database\Query.php on line 335.
+ 1 SYSTEMPATH\Database\Query.php(335): strtr('SELECT *
+FROM `t_usuario`
+WHERE `usuario` = :usuario:', [...])
+ 2 SYSTEMPATH\Database\Query.php(310): CodeIgniter\Database\Query->matchNamedBinds('SELECT *
+FROM `t_usuario`
+WHERE `usuario` = :usuario:', [...])
+ 3 SYSTEMPATH\Database\Query.php(159): CodeIgniter\Database\Query->compileBinds()
+ 4 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\Query->getQuery()
+ 5 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `t_usuario`
+WHERE `usuario` = :usuario:', [...], false)
+ 6 APPPATH\Models\Usuario.php(9): CodeIgniter\Database\BaseBuilder->get()
+ 7 APPPATH\Controllers\Home.php(93): App\Models\Usuario->obtenerusuario([...])
+ 8 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->login()
+ 9 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+10 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-29 20:19:52 --> Object of class App\Models\Usuario could not be converted to string
+in SYSTEMPATH\Database\Query.php on line 335.
+ 1 SYSTEMPATH\Database\Query.php(335): strtr('SELECT *
+FROM `t_usuario`
+WHERE `usuario` = :usuario:', [...])
+ 2 SYSTEMPATH\Database\Query.php(310): CodeIgniter\Database\Query->matchNamedBinds('SELECT *
+FROM `t_usuario`
+WHERE `usuario` = :usuario:', [...])
+ 3 SYSTEMPATH\Database\Query.php(159): CodeIgniter\Database\Query->compileBinds()
+ 4 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\Query->getQuery()
+ 5 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `t_usuario`
+WHERE `usuario` = :usuario:', [...], false)
+ 6 APPPATH\Models\Usuario.php(9): CodeIgniter\Database\BaseBuilder->get()
+ 7 APPPATH\Controllers\Home.php(93): App\Models\Usuario->obtenerusuario([...])
+ 8 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->login()
+ 9 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+10 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-29 20:22:55 --> Object of class App\Models\Usuario could not be converted to string
+in SYSTEMPATH\Database\Query.php on line 335.
+ 1 SYSTEMPATH\Database\Query.php(335): strtr('SELECT *
+FROM `t_usuario`
+WHERE `usuario` = :usuario:', [...])
+ 2 SYSTEMPATH\Database\Query.php(310): CodeIgniter\Database\Query->matchNamedBinds('SELECT *
+FROM `t_usuario`
+WHERE `usuario` = :usuario:', [...])
+ 3 SYSTEMPATH\Database\Query.php(159): CodeIgniter\Database\Query->compileBinds()
+ 4 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\Query->getQuery()
+ 5 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `t_usuario`
+WHERE `usuario` = :usuario:', [...], false)
+ 6 APPPATH\Models\Usuario.php(9): CodeIgniter\Database\BaseBuilder->get()
+ 7 APPPATH\Controllers\Home.php(93): App\Models\Usuario->obtenerusuario([...])
+ 8 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->login()
+ 9 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+10 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-29 20:22:55 --> Object of class App\Models\Usuario could not be converted to string
+in SYSTEMPATH\Database\Query.php on line 335.
+ 1 SYSTEMPATH\Database\Query.php(335): strtr('SELECT *
+FROM `t_usuario`
+WHERE `usuario` = :usuario:', [...])
+ 2 SYSTEMPATH\Database\Query.php(310): CodeIgniter\Database\Query->matchNamedBinds('SELECT *
+FROM `t_usuario`
+WHERE `usuario` = :usuario:', [...])
+ 3 SYSTEMPATH\Database\Query.php(159): CodeIgniter\Database\Query->compileBinds()
+ 4 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\Query->getQuery()
+ 5 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `t_usuario`
+WHERE `usuario` = :usuario:', [...], false)
+ 6 APPPATH\Models\Usuario.php(9): CodeIgniter\Database\BaseBuilder->get()
+ 7 APPPATH\Controllers\Home.php(93): App\Models\Usuario->obtenerusuario([...])
+ 8 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->login()
+ 9 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+10 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-29 20:22:55 --> Object of class App\Models\Usuario could not be converted to string
+in SYSTEMPATH\Database\Query.php on line 335.
+ 1 SYSTEMPATH\Database\Query.php(335): strtr('SELECT *
+FROM `t_usuario`
+WHERE `usuario` = :usuario:', [...])
+ 2 SYSTEMPATH\Database\Query.php(310): CodeIgniter\Database\Query->matchNamedBinds('SELECT *
+FROM `t_usuario`
+WHERE `usuario` = :usuario:', [...])
+ 3 SYSTEMPATH\Database\Query.php(159): CodeIgniter\Database\Query->compileBinds()
+ 4 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\Query->getQuery()
+ 5 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `t_usuario`
+WHERE `usuario` = :usuario:', [...], false)
+ 6 APPPATH\Models\Usuario.php(9): CodeIgniter\Database\BaseBuilder->get()
+ 7 APPPATH\Controllers\Home.php(93): App\Models\Usuario->obtenerusuario([...])
+ 8 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->login()
+ 9 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+10 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-29 20:22:59 --> Object of class App\Models\Usuario could not be converted to string
+in SYSTEMPATH\Database\Query.php on line 335.
+ 1 SYSTEMPATH\Database\Query.php(335): strtr('SELECT *
+FROM `t_usuario`
+WHERE `usuario` = :usuario:', [...])
+ 2 SYSTEMPATH\Database\Query.php(310): CodeIgniter\Database\Query->matchNamedBinds('SELECT *
+FROM `t_usuario`
+WHERE `usuario` = :usuario:', [...])
+ 3 SYSTEMPATH\Database\Query.php(159): CodeIgniter\Database\Query->compileBinds()
+ 4 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\Query->getQuery()
+ 5 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `t_usuario`
+WHERE `usuario` = :usuario:', [...], false)
+ 6 APPPATH\Models\Usuario.php(9): CodeIgniter\Database\BaseBuilder->get()
+ 7 APPPATH\Controllers\Home.php(93): App\Models\Usuario->obtenerusuario([...])
+ 8 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->login()
+ 9 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+10 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-29 20:23:02 --> Object of class App\Models\Usuario could not be converted to string
+in SYSTEMPATH\Database\Query.php on line 335.
+ 1 SYSTEMPATH\Database\Query.php(335): strtr('SELECT *
+FROM `t_usuario`
+WHERE `usuario` = :usuario:', [...])
+ 2 SYSTEMPATH\Database\Query.php(310): CodeIgniter\Database\Query->matchNamedBinds('SELECT *
+FROM `t_usuario`
+WHERE `usuario` = :usuario:', [...])
+ 3 SYSTEMPATH\Database\Query.php(159): CodeIgniter\Database\Query->compileBinds()
+ 4 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\Query->getQuery()
+ 5 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `t_usuario`
+WHERE `usuario` = :usuario:', [...], false)
+ 6 APPPATH\Models\Usuario.php(9): CodeIgniter\Database\BaseBuilder->get()
+ 7 APPPATH\Controllers\Home.php(93): App\Models\Usuario->obtenerusuario([...])
+ 8 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->login()
+ 9 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+10 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-29 20:23:03 --> Object of class App\Models\Usuario could not be converted to string
+in SYSTEMPATH\Database\Query.php on line 335.
+ 1 SYSTEMPATH\Database\Query.php(335): strtr('SELECT *
+FROM `t_usuario`
+WHERE `usuario` = :usuario:', [...])
+ 2 SYSTEMPATH\Database\Query.php(310): CodeIgniter\Database\Query->matchNamedBinds('SELECT *
+FROM `t_usuario`
+WHERE `usuario` = :usuario:', [...])
+ 3 SYSTEMPATH\Database\Query.php(159): CodeIgniter\Database\Query->compileBinds()
+ 4 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\Query->getQuery()
+ 5 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `t_usuario`
+WHERE `usuario` = :usuario:', [...], false)
+ 6 APPPATH\Models\Usuario.php(9): CodeIgniter\Database\BaseBuilder->get()
+ 7 APPPATH\Controllers\Home.php(93): App\Models\Usuario->obtenerusuario([...])
+ 8 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->login()
+ 9 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+10 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-29 20:23:03 --> Object of class App\Models\Usuario could not be converted to string
+in SYSTEMPATH\Database\Query.php on line 335.
+ 1 SYSTEMPATH\Database\Query.php(335): strtr('SELECT *
+FROM `t_usuario`
+WHERE `usuario` = :usuario:', [...])
+ 2 SYSTEMPATH\Database\Query.php(310): CodeIgniter\Database\Query->matchNamedBinds('SELECT *
+FROM `t_usuario`
+WHERE `usuario` = :usuario:', [...])
+ 3 SYSTEMPATH\Database\Query.php(159): CodeIgniter\Database\Query->compileBinds()
+ 4 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\Query->getQuery()
+ 5 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `t_usuario`
+WHERE `usuario` = :usuario:', [...], false)
+ 6 APPPATH\Models\Usuario.php(9): CodeIgniter\Database\BaseBuilder->get()
+ 7 APPPATH\Controllers\Home.php(93): App\Models\Usuario->obtenerusuario([...])
+ 8 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->login()
+ 9 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+10 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-29 20:23:03 --> Object of class App\Models\Usuario could not be converted to string
+in SYSTEMPATH\Database\Query.php on line 335.
+ 1 SYSTEMPATH\Database\Query.php(335): strtr('SELECT *
+FROM `t_usuario`
+WHERE `usuario` = :usuario:', [...])
+ 2 SYSTEMPATH\Database\Query.php(310): CodeIgniter\Database\Query->matchNamedBinds('SELECT *
+FROM `t_usuario`
+WHERE `usuario` = :usuario:', [...])
+ 3 SYSTEMPATH\Database\Query.php(159): CodeIgniter\Database\Query->compileBinds()
+ 4 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\Query->getQuery()
+ 5 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `t_usuario`
+WHERE `usuario` = :usuario:', [...], false)
+ 6 APPPATH\Models\Usuario.php(9): CodeIgniter\Database\BaseBuilder->get()
+ 7 APPPATH\Controllers\Home.php(93): App\Models\Usuario->obtenerusuario([...])
+ 8 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->login()
+ 9 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+10 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-29 20:23:03 --> Object of class App\Models\Usuario could not be converted to string
+in SYSTEMPATH\Database\Query.php on line 335.
+ 1 SYSTEMPATH\Database\Query.php(335): strtr('SELECT *
+FROM `t_usuario`
+WHERE `usuario` = :usuario:', [...])
+ 2 SYSTEMPATH\Database\Query.php(310): CodeIgniter\Database\Query->matchNamedBinds('SELECT *
+FROM `t_usuario`
+WHERE `usuario` = :usuario:', [...])
+ 3 SYSTEMPATH\Database\Query.php(159): CodeIgniter\Database\Query->compileBinds()
+ 4 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\Query->getQuery()
+ 5 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `t_usuario`
+WHERE `usuario` = :usuario:', [...], false)
+ 6 APPPATH\Models\Usuario.php(9): CodeIgniter\Database\BaseBuilder->get()
+ 7 APPPATH\Controllers\Home.php(93): App\Models\Usuario->obtenerusuario([...])
+ 8 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->login()
+ 9 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+10 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-29 20:23:03 --> Object of class App\Models\Usuario could not be converted to string
+in SYSTEMPATH\Database\Query.php on line 335.
+ 1 SYSTEMPATH\Database\Query.php(335): strtr('SELECT *
+FROM `t_usuario`
+WHERE `usuario` = :usuario:', [...])
+ 2 SYSTEMPATH\Database\Query.php(310): CodeIgniter\Database\Query->matchNamedBinds('SELECT *
+FROM `t_usuario`
+WHERE `usuario` = :usuario:', [...])
+ 3 SYSTEMPATH\Database\Query.php(159): CodeIgniter\Database\Query->compileBinds()
+ 4 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\Query->getQuery()
+ 5 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `t_usuario`
+WHERE `usuario` = :usuario:', [...], false)
+ 6 APPPATH\Models\Usuario.php(9): CodeIgniter\Database\BaseBuilder->get()
+ 7 APPPATH\Controllers\Home.php(93): App\Models\Usuario->obtenerusuario([...])
+ 8 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->login()
+ 9 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+10 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-29 20:23:03 --> Object of class App\Models\Usuario could not be converted to string
+in SYSTEMPATH\Database\Query.php on line 335.
+ 1 SYSTEMPATH\Database\Query.php(335): strtr('SELECT *
+FROM `t_usuario`
+WHERE `usuario` = :usuario:', [...])
+ 2 SYSTEMPATH\Database\Query.php(310): CodeIgniter\Database\Query->matchNamedBinds('SELECT *
+FROM `t_usuario`
+WHERE `usuario` = :usuario:', [...])
+ 3 SYSTEMPATH\Database\Query.php(159): CodeIgniter\Database\Query->compileBinds()
+ 4 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\Query->getQuery()
+ 5 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `t_usuario`
+WHERE `usuario` = :usuario:', [...], false)
+ 6 APPPATH\Models\Usuario.php(9): CodeIgniter\Database\BaseBuilder->get()
+ 7 APPPATH\Controllers\Home.php(93): App\Models\Usuario->obtenerusuario([...])
+ 8 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->login()
+ 9 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+10 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-29 20:23:04 --> Object of class App\Models\Usuario could not be converted to string
+in SYSTEMPATH\Database\Query.php on line 335.
+ 1 SYSTEMPATH\Database\Query.php(335): strtr('SELECT *
+FROM `t_usuario`
+WHERE `usuario` = :usuario:', [...])
+ 2 SYSTEMPATH\Database\Query.php(310): CodeIgniter\Database\Query->matchNamedBinds('SELECT *
+FROM `t_usuario`
+WHERE `usuario` = :usuario:', [...])
+ 3 SYSTEMPATH\Database\Query.php(159): CodeIgniter\Database\Query->compileBinds()
+ 4 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\Query->getQuery()
+ 5 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `t_usuario`
+WHERE `usuario` = :usuario:', [...], false)
+ 6 APPPATH\Models\Usuario.php(9): CodeIgniter\Database\BaseBuilder->get()
+ 7 APPPATH\Controllers\Home.php(93): App\Models\Usuario->obtenerusuario([...])
+ 8 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->login()
+ 9 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+10 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-29 20:23:04 --> Object of class App\Models\Usuario could not be converted to string
+in SYSTEMPATH\Database\Query.php on line 335.
+ 1 SYSTEMPATH\Database\Query.php(335): strtr('SELECT *
+FROM `t_usuario`
+WHERE `usuario` = :usuario:', [...])
+ 2 SYSTEMPATH\Database\Query.php(310): CodeIgniter\Database\Query->matchNamedBinds('SELECT *
+FROM `t_usuario`
+WHERE `usuario` = :usuario:', [...])
+ 3 SYSTEMPATH\Database\Query.php(159): CodeIgniter\Database\Query->compileBinds()
+ 4 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\Query->getQuery()
+ 5 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `t_usuario`
+WHERE `usuario` = :usuario:', [...], false)
+ 6 APPPATH\Models\Usuario.php(9): CodeIgniter\Database\BaseBuilder->get()
+ 7 APPPATH\Controllers\Home.php(93): App\Models\Usuario->obtenerusuario([...])
+ 8 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->login()
+ 9 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+10 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-29 20:23:04 --> Object of class App\Models\Usuario could not be converted to string
+in SYSTEMPATH\Database\Query.php on line 335.
+ 1 SYSTEMPATH\Database\Query.php(335): strtr('SELECT *
+FROM `t_usuario`
+WHERE `usuario` = :usuario:', [...])
+ 2 SYSTEMPATH\Database\Query.php(310): CodeIgniter\Database\Query->matchNamedBinds('SELECT *
+FROM `t_usuario`
+WHERE `usuario` = :usuario:', [...])
+ 3 SYSTEMPATH\Database\Query.php(159): CodeIgniter\Database\Query->compileBinds()
+ 4 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\Query->getQuery()
+ 5 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `t_usuario`
+WHERE `usuario` = :usuario:', [...], false)
+ 6 APPPATH\Models\Usuario.php(9): CodeIgniter\Database\BaseBuilder->get()
+ 7 APPPATH\Controllers\Home.php(93): App\Models\Usuario->obtenerusuario([...])
+ 8 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->login()
+ 9 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+10 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-29 20:23:04 --> Object of class App\Models\Usuario could not be converted to string
+in SYSTEMPATH\Database\Query.php on line 335.
+ 1 SYSTEMPATH\Database\Query.php(335): strtr('SELECT *
+FROM `t_usuario`
+WHERE `usuario` = :usuario:', [...])
+ 2 SYSTEMPATH\Database\Query.php(310): CodeIgniter\Database\Query->matchNamedBinds('SELECT *
+FROM `t_usuario`
+WHERE `usuario` = :usuario:', [...])
+ 3 SYSTEMPATH\Database\Query.php(159): CodeIgniter\Database\Query->compileBinds()
+ 4 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\Query->getQuery()
+ 5 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `t_usuario`
+WHERE `usuario` = :usuario:', [...], false)
+ 6 APPPATH\Models\Usuario.php(9): CodeIgniter\Database\BaseBuilder->get()
+ 7 APPPATH\Controllers\Home.php(93): App\Models\Usuario->obtenerusuario([...])
+ 8 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->login()
+ 9 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+10 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-29 21:03:03 --> Undefined array key "comments"
+in APPPATH\Controllers\Home.php on line 73.
+ 1 APPPATH\Controllers\Home.php(73): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "comments"', 'C:\\xampp\\htdocs\\CIBERSHIFT\\app\\Controllers\\Home.php', 73)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->entrar()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-29 21:03:39 --> Undefined array key "comments"
+in APPPATH\Controllers\Home.php on line 40.
+ 1 APPPATH\Controllers\Home.php(40): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "comments"', 'C:\\xampp\\htdocs\\CIBERSHIFT\\app\\Controllers\\Home.php', 40)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->cita()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-29 21:03:59 --> Undefined array key "comments"
+in APPPATH\Controllers\Home.php on line 40.
+ 1 APPPATH\Controllers\Home.php(40): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "comments"', 'C:\\xampp\\htdocs\\CIBERSHIFT\\app\\Controllers\\Home.php', 40)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->cita()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-29 21:04:18 --> Object of class App\Models\Usuario could not be converted to string
+in SYSTEMPATH\Database\Query.php on line 335.
+ 1 SYSTEMPATH\Database\Query.php(335): strtr('SELECT *
+FROM `t_usuario`
+WHERE `usuario` = :usuario:', [...])
+ 2 SYSTEMPATH\Database\Query.php(310): CodeIgniter\Database\Query->matchNamedBinds('SELECT *
+FROM `t_usuario`
+WHERE `usuario` = :usuario:', [...])
+ 3 SYSTEMPATH\Database\Query.php(159): CodeIgniter\Database\Query->compileBinds()
+ 4 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\Query->getQuery()
+ 5 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `t_usuario`
+WHERE `usuario` = :usuario:', [...], false)
+ 6 APPPATH\Models\Usuario.php(9): CodeIgniter\Database\BaseBuilder->get()
+ 7 APPPATH\Controllers\Home.php(93): App\Models\Usuario->obtenerusuario([...])
+ 8 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->login()
+ 9 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+10 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-29 21:04:52 --> Object of class App\Models\Usuario could not be converted to string
+in SYSTEMPATH\Database\Query.php on line 335.
+ 1 SYSTEMPATH\Database\Query.php(335): strtr('SELECT *
+FROM `t_usuario`
+WHERE `usuario` = :usuario:', [...])
+ 2 SYSTEMPATH\Database\Query.php(310): CodeIgniter\Database\Query->matchNamedBinds('SELECT *
+FROM `t_usuario`
+WHERE `usuario` = :usuario:', [...])
+ 3 SYSTEMPATH\Database\Query.php(159): CodeIgniter\Database\Query->compileBinds()
+ 4 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\Query->getQuery()
+ 5 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `t_usuario`
+WHERE `usuario` = :usuario:', [...], false)
+ 6 APPPATH\Models\Usuario.php(9): CodeIgniter\Database\BaseBuilder->get()
+ 7 APPPATH\Controllers\Home.php(92): App\Models\Usuario->obtenerusuario([...])
+ 8 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->login()
+ 9 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+10 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-29 21:05:06 --> Object of class App\Models\Usuario could not be converted to string
+in SYSTEMPATH\Database\Query.php on line 335.
+ 1 SYSTEMPATH\Database\Query.php(335): strtr('SELECT *
+FROM `t_usuario`
+WHERE `usuario` = :usuario:', [...])
+ 2 SYSTEMPATH\Database\Query.php(310): CodeIgniter\Database\Query->matchNamedBinds('SELECT *
+FROM `t_usuario`
+WHERE `usuario` = :usuario:', [...])
+ 3 SYSTEMPATH\Database\Query.php(159): CodeIgniter\Database\Query->compileBinds()
+ 4 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\Query->getQuery()
+ 5 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `t_usuario`
+WHERE `usuario` = :usuario:', [...], false)
+ 6 APPPATH\Models\Usuario.php(9): CodeIgniter\Database\BaseBuilder->get()
+ 7 APPPATH\Controllers\Home.php(92): App\Models\Usuario->obtenerusuario([...])
+ 8 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->login()
+ 9 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+10 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-29 21:05:07 --> Object of class App\Models\Usuario could not be converted to string
+in SYSTEMPATH\Database\Query.php on line 335.
+ 1 SYSTEMPATH\Database\Query.php(335): strtr('SELECT *
+FROM `t_usuario`
+WHERE `usuario` = :usuario:', [...])
+ 2 SYSTEMPATH\Database\Query.php(310): CodeIgniter\Database\Query->matchNamedBinds('SELECT *
+FROM `t_usuario`
+WHERE `usuario` = :usuario:', [...])
+ 3 SYSTEMPATH\Database\Query.php(159): CodeIgniter\Database\Query->compileBinds()
+ 4 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\Query->getQuery()
+ 5 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `t_usuario`
+WHERE `usuario` = :usuario:', [...], false)
+ 6 APPPATH\Models\Usuario.php(9): CodeIgniter\Database\BaseBuilder->get()
+ 7 APPPATH\Controllers\Home.php(92): App\Models\Usuario->obtenerusuario([...])
+ 8 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->login()
+ 9 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+10 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-29 21:05:07 --> Object of class App\Models\Usuario could not be converted to string
+in SYSTEMPATH\Database\Query.php on line 335.
+ 1 SYSTEMPATH\Database\Query.php(335): strtr('SELECT *
+FROM `t_usuario`
+WHERE `usuario` = :usuario:', [...])
+ 2 SYSTEMPATH\Database\Query.php(310): CodeIgniter\Database\Query->matchNamedBinds('SELECT *
+FROM `t_usuario`
+WHERE `usuario` = :usuario:', [...])
+ 3 SYSTEMPATH\Database\Query.php(159): CodeIgniter\Database\Query->compileBinds()
+ 4 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\Query->getQuery()
+ 5 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `t_usuario`
+WHERE `usuario` = :usuario:', [...], false)
+ 6 APPPATH\Models\Usuario.php(9): CodeIgniter\Database\BaseBuilder->get()
+ 7 APPPATH\Controllers\Home.php(92): App\Models\Usuario->obtenerusuario([...])
+ 8 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->login()
+ 9 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+10 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-29 21:05:13 --> Undefined array key "comments"
+in APPPATH\Controllers\Home.php on line 72.
+ 1 APPPATH\Controllers\Home.php(72): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "comments"', 'C:\\xampp\\htdocs\\CIBERSHIFT\\app\\Controllers\\Home.php', 72)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->entrar()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-29 21:05:42 --> Undefined array key "comments"
+in APPPATH\Controllers\Home.php on line 73.
+ 1 APPPATH\Controllers\Home.php(73): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "comments"', 'C:\\xampp\\htdocs\\CIBERSHIFT\\app\\Controllers\\Home.php', 73)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->entrar()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-29 21:06:30 --> Object of class App\Models\Usuario could not be converted to string
+in SYSTEMPATH\Database\Query.php on line 335.
+ 1 SYSTEMPATH\Database\Query.php(335): strtr('SELECT *
+FROM `t_usuario`
+WHERE `usuario` = :usuario:', [...])
+ 2 SYSTEMPATH\Database\Query.php(310): CodeIgniter\Database\Query->matchNamedBinds('SELECT *
+FROM `t_usuario`
+WHERE `usuario` = :usuario:', [...])
+ 3 SYSTEMPATH\Database\Query.php(159): CodeIgniter\Database\Query->compileBinds()
+ 4 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\Query->getQuery()
+ 5 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `t_usuario`
+WHERE `usuario` = :usuario:', [...], false)
+ 6 APPPATH\Models\Usuario.php(9): CodeIgniter\Database\BaseBuilder->get()
+ 7 APPPATH\Controllers\Home.php(93): App\Models\Usuario->obtenerusuario([...])
+ 8 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->login()
+ 9 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+10 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-29 21:06:58 --> Undefined constant "App\Models\sql"
+in APPPATH\Models\Usuario.php on line 9.
+ 1 APPPATH\Controllers\Home.php(93): App\Models\Usuario->obtenerusuario([...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->login()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-29 21:07:05 --> Object of class App\Models\Usuario could not be converted to string
+in SYSTEMPATH\Database\Query.php on line 335.
+ 1 SYSTEMPATH\Database\Query.php(335): strtr('SELECT *
+FROM `t_usuario`
+WHERE `usuario` = :usuario:', [...])
+ 2 SYSTEMPATH\Database\Query.php(310): CodeIgniter\Database\Query->matchNamedBinds('SELECT *
+FROM `t_usuario`
+WHERE `usuario` = :usuario:', [...])
+ 3 SYSTEMPATH\Database\Query.php(159): CodeIgniter\Database\Query->compileBinds()
+ 4 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\Query->getQuery()
+ 5 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `t_usuario`
+WHERE `usuario` = :usuario:', [...], false)
+ 6 APPPATH\Models\Usuario.php(9): CodeIgniter\Database\BaseBuilder->get()
+ 7 APPPATH\Controllers\Home.php(93): App\Models\Usuario->obtenerusuario([...])
+ 8 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->login()
+ 9 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+10 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-29 21:12:57 --> Object of class App\Models\Usuario could not be converted to string
+in SYSTEMPATH\Database\Query.php on line 335.
+ 1 SYSTEMPATH\Database\Query.php(335): strtr('SELECT *
+FROM `t_usuario`
+WHERE `usuario` = :usuario:', [...])
+ 2 SYSTEMPATH\Database\Query.php(310): CodeIgniter\Database\Query->matchNamedBinds('SELECT *
+FROM `t_usuario`
+WHERE `usuario` = :usuario:', [...])
+ 3 SYSTEMPATH\Database\Query.php(159): CodeIgniter\Database\Query->compileBinds()
+ 4 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\Query->getQuery()
+ 5 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `t_usuario`
+WHERE `usuario` = :usuario:', [...], false)
+ 6 APPPATH\Models\Usuario.php(9): CodeIgniter\Database\BaseBuilder->get()
+ 7 APPPATH\Controllers\Home.php(93): App\Models\Usuario->obtenerusuario([...])
+ 8 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->login()
+ 9 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+10 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-29 21:12:58 --> Object of class App\Models\Usuario could not be converted to string
+in SYSTEMPATH\Database\Query.php on line 335.
+ 1 SYSTEMPATH\Database\Query.php(335): strtr('SELECT *
+FROM `t_usuario`
+WHERE `usuario` = :usuario:', [...])
+ 2 SYSTEMPATH\Database\Query.php(310): CodeIgniter\Database\Query->matchNamedBinds('SELECT *
+FROM `t_usuario`
+WHERE `usuario` = :usuario:', [...])
+ 3 SYSTEMPATH\Database\Query.php(159): CodeIgniter\Database\Query->compileBinds()
+ 4 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\Query->getQuery()
+ 5 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `t_usuario`
+WHERE `usuario` = :usuario:', [...], false)
+ 6 APPPATH\Models\Usuario.php(9): CodeIgniter\Database\BaseBuilder->get()
+ 7 APPPATH\Controllers\Home.php(93): App\Models\Usuario->obtenerusuario([...])
+ 8 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->login()
+ 9 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+10 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-29 21:12:58 --> Object of class App\Models\Usuario could not be converted to string
+in SYSTEMPATH\Database\Query.php on line 335.
+ 1 SYSTEMPATH\Database\Query.php(335): strtr('SELECT *
+FROM `t_usuario`
+WHERE `usuario` = :usuario:', [...])
+ 2 SYSTEMPATH\Database\Query.php(310): CodeIgniter\Database\Query->matchNamedBinds('SELECT *
+FROM `t_usuario`
+WHERE `usuario` = :usuario:', [...])
+ 3 SYSTEMPATH\Database\Query.php(159): CodeIgniter\Database\Query->compileBinds()
+ 4 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\Query->getQuery()
+ 5 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `t_usuario`
+WHERE `usuario` = :usuario:', [...], false)
+ 6 APPPATH\Models\Usuario.php(9): CodeIgniter\Database\BaseBuilder->get()
+ 7 APPPATH\Controllers\Home.php(93): App\Models\Usuario->obtenerusuario([...])
+ 8 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->login()
+ 9 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+10 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-29 21:12:58 --> Object of class App\Models\Usuario could not be converted to string
+in SYSTEMPATH\Database\Query.php on line 335.
+ 1 SYSTEMPATH\Database\Query.php(335): strtr('SELECT *
+FROM `t_usuario`
+WHERE `usuario` = :usuario:', [...])
+ 2 SYSTEMPATH\Database\Query.php(310): CodeIgniter\Database\Query->matchNamedBinds('SELECT *
+FROM `t_usuario`
+WHERE `usuario` = :usuario:', [...])
+ 3 SYSTEMPATH\Database\Query.php(159): CodeIgniter\Database\Query->compileBinds()
+ 4 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\Query->getQuery()
+ 5 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `t_usuario`
+WHERE `usuario` = :usuario:', [...], false)
+ 6 APPPATH\Models\Usuario.php(9): CodeIgniter\Database\BaseBuilder->get()
+ 7 APPPATH\Controllers\Home.php(93): App\Models\Usuario->obtenerusuario([...])
+ 8 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->login()
+ 9 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+10 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-29 21:12:59 --> Object of class App\Models\Usuario could not be converted to string
+in SYSTEMPATH\Database\Query.php on line 335.
+ 1 SYSTEMPATH\Database\Query.php(335): strtr('SELECT *
+FROM `t_usuario`
+WHERE `usuario` = :usuario:', [...])
+ 2 SYSTEMPATH\Database\Query.php(310): CodeIgniter\Database\Query->matchNamedBinds('SELECT *
+FROM `t_usuario`
+WHERE `usuario` = :usuario:', [...])
+ 3 SYSTEMPATH\Database\Query.php(159): CodeIgniter\Database\Query->compileBinds()
+ 4 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\Query->getQuery()
+ 5 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `t_usuario`
+WHERE `usuario` = :usuario:', [...], false)
+ 6 APPPATH\Models\Usuario.php(9): CodeIgniter\Database\BaseBuilder->get()
+ 7 APPPATH\Controllers\Home.php(93): App\Models\Usuario->obtenerusuario([...])
+ 8 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->login()
+ 9 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+10 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-29 21:12:59 --> Object of class App\Models\Usuario could not be converted to string
+in SYSTEMPATH\Database\Query.php on line 335.
+ 1 SYSTEMPATH\Database\Query.php(335): strtr('SELECT *
+FROM `t_usuario`
+WHERE `usuario` = :usuario:', [...])
+ 2 SYSTEMPATH\Database\Query.php(310): CodeIgniter\Database\Query->matchNamedBinds('SELECT *
+FROM `t_usuario`
+WHERE `usuario` = :usuario:', [...])
+ 3 SYSTEMPATH\Database\Query.php(159): CodeIgniter\Database\Query->compileBinds()
+ 4 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\Query->getQuery()
+ 5 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `t_usuario`
+WHERE `usuario` = :usuario:', [...], false)
+ 6 APPPATH\Models\Usuario.php(9): CodeIgniter\Database\BaseBuilder->get()
+ 7 APPPATH\Controllers\Home.php(93): App\Models\Usuario->obtenerusuario([...])
+ 8 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->login()
+ 9 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+10 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-29 21:12:59 --> Object of class App\Models\Usuario could not be converted to string
+in SYSTEMPATH\Database\Query.php on line 335.
+ 1 SYSTEMPATH\Database\Query.php(335): strtr('SELECT *
+FROM `t_usuario`
+WHERE `usuario` = :usuario:', [...])
+ 2 SYSTEMPATH\Database\Query.php(310): CodeIgniter\Database\Query->matchNamedBinds('SELECT *
+FROM `t_usuario`
+WHERE `usuario` = :usuario:', [...])
+ 3 SYSTEMPATH\Database\Query.php(159): CodeIgniter\Database\Query->compileBinds()
+ 4 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\Query->getQuery()
+ 5 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `t_usuario`
+WHERE `usuario` = :usuario:', [...], false)
+ 6 APPPATH\Models\Usuario.php(9): CodeIgniter\Database\BaseBuilder->get()
+ 7 APPPATH\Controllers\Home.php(93): App\Models\Usuario->obtenerusuario([...])
+ 8 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->login()
+ 9 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+10 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-29 21:12:59 --> Object of class App\Models\Usuario could not be converted to string
+in SYSTEMPATH\Database\Query.php on line 335.
+ 1 SYSTEMPATH\Database\Query.php(335): strtr('SELECT *
+FROM `t_usuario`
+WHERE `usuario` = :usuario:', [...])
+ 2 SYSTEMPATH\Database\Query.php(310): CodeIgniter\Database\Query->matchNamedBinds('SELECT *
+FROM `t_usuario`
+WHERE `usuario` = :usuario:', [...])
+ 3 SYSTEMPATH\Database\Query.php(159): CodeIgniter\Database\Query->compileBinds()
+ 4 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\Query->getQuery()
+ 5 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `t_usuario`
+WHERE `usuario` = :usuario:', [...], false)
+ 6 APPPATH\Models\Usuario.php(9): CodeIgniter\Database\BaseBuilder->get()
+ 7 APPPATH\Controllers\Home.php(93): App\Models\Usuario->obtenerusuario([...])
+ 8 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->login()
+ 9 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+10 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-29 21:12:59 --> Object of class App\Models\Usuario could not be converted to string
+in SYSTEMPATH\Database\Query.php on line 335.
+ 1 SYSTEMPATH\Database\Query.php(335): strtr('SELECT *
+FROM `t_usuario`
+WHERE `usuario` = :usuario:', [...])
+ 2 SYSTEMPATH\Database\Query.php(310): CodeIgniter\Database\Query->matchNamedBinds('SELECT *
+FROM `t_usuario`
+WHERE `usuario` = :usuario:', [...])
+ 3 SYSTEMPATH\Database\Query.php(159): CodeIgniter\Database\Query->compileBinds()
+ 4 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\Query->getQuery()
+ 5 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `t_usuario`
+WHERE `usuario` = :usuario:', [...], false)
+ 6 APPPATH\Models\Usuario.php(9): CodeIgniter\Database\BaseBuilder->get()
+ 7 APPPATH\Controllers\Home.php(93): App\Models\Usuario->obtenerusuario([...])
+ 8 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->login()
+ 9 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+10 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-29 21:13:39 --> Object of class App\Models\Usuario could not be converted to string
+in SYSTEMPATH\Database\Query.php on line 335.
+ 1 SYSTEMPATH\Database\Query.php(335): strtr('SELECT *
+FROM `t_usuario`
+WHERE `usuario` = :usuario:', [...])
+ 2 SYSTEMPATH\Database\Query.php(310): CodeIgniter\Database\Query->matchNamedBinds('SELECT *
+FROM `t_usuario`
+WHERE `usuario` = :usuario:', [...])
+ 3 SYSTEMPATH\Database\Query.php(159): CodeIgniter\Database\Query->compileBinds()
+ 4 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\Query->getQuery()
+ 5 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `t_usuario`
+WHERE `usuario` = :usuario:', [...], false)
+ 6 APPPATH\Models\Usuario.php(9): CodeIgniter\Database\BaseBuilder->get()
+ 7 APPPATH\Controllers\Home.php(93): App\Models\Usuario->obtenerusuario([...])
+ 8 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->login()
+ 9 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+10 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-29 21:15:13 --> Object of class App\Models\Usuario could not be converted to string
+in SYSTEMPATH\Database\Query.php on line 335.
+ 1 SYSTEMPATH\Database\Query.php(335): strtr('SELECT *
+FROM `t_usuario`
+WHERE `usuario` = :usuario:', [...])
+ 2 SYSTEMPATH\Database\Query.php(310): CodeIgniter\Database\Query->matchNamedBinds('SELECT *
+FROM `t_usuario`
+WHERE `usuario` = :usuario:', [...])
+ 3 SYSTEMPATH\Database\Query.php(159): CodeIgniter\Database\Query->compileBinds()
+ 4 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\Query->getQuery()
+ 5 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `t_usuario`
+WHERE `usuario` = :usuario:', [...], false)
+ 6 APPPATH\Models\Usuario.php(9): CodeIgniter\Database\BaseBuilder->get()
+ 7 APPPATH\Controllers\Home.php(93): App\Models\Usuario->obtenerusuario([...])
+ 8 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->login()
+ 9 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+10 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-29 21:17:44 --> Undefined array key "comments"
+in APPPATH\Controllers\Home.php on line 40.
+ 1 APPPATH\Controllers\Home.php(40): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "comments"', 'C:\\xampp\\htdocs\\CIBERSHIFT\\app\\Controllers\\Home.php', 40)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->cita()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-29 21:17:59 --> Object of class App\Models\Usuario could not be converted to string
+in SYSTEMPATH\Database\Query.php on line 335.
+ 1 SYSTEMPATH\Database\Query.php(335): strtr('SELECT *
+FROM `t_usuario`
+WHERE `usuario` = :usuario:', [...])
+ 2 SYSTEMPATH\Database\Query.php(310): CodeIgniter\Database\Query->matchNamedBinds('SELECT *
+FROM `t_usuario`
+WHERE `usuario` = :usuario:', [...])
+ 3 SYSTEMPATH\Database\Query.php(159): CodeIgniter\Database\Query->compileBinds()
+ 4 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\Query->getQuery()
+ 5 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `t_usuario`
+WHERE `usuario` = :usuario:', [...], false)
+ 6 APPPATH\Models\Usuario.php(9): CodeIgniter\Database\BaseBuilder->get()
+ 7 APPPATH\Controllers\Home.php(93): App\Models\Usuario->obtenerusuario([...])
+ 8 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->login()
+ 9 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+10 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-29 21:21:30 --> Undefined array key "comments"
+in APPPATH\Controllers\Home.php on line 40.
+ 1 APPPATH\Controllers\Home.php(40): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "comments"', 'C:\\xampp\\htdocs\\CIBERSHIFT\\app\\Controllers\\Home.php', 40)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->cita()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-29 21:21:55 --> Object of class App\Models\Usuario could not be converted to string
+in SYSTEMPATH\Database\Query.php on line 335.
+ 1 SYSTEMPATH\Database\Query.php(335): strtr('SELECT *
+FROM `t_usuario`
+WHERE `usuario` = :usuario:', [...])
+ 2 SYSTEMPATH\Database\Query.php(310): CodeIgniter\Database\Query->matchNamedBinds('SELECT *
+FROM `t_usuario`
+WHERE `usuario` = :usuario:', [...])
+ 3 SYSTEMPATH\Database\Query.php(159): CodeIgniter\Database\Query->compileBinds()
+ 4 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\Query->getQuery()
+ 5 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `t_usuario`
+WHERE `usuario` = :usuario:', [...], false)
+ 6 APPPATH\Models\Usuario.php(9): CodeIgniter\Database\BaseBuilder->get()
+ 7 APPPATH\Controllers\Home.php(93): App\Models\Usuario->obtenerusuario([...])
+ 8 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->login()
+ 9 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+10 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-29 21:31:57 --> Object of class App\Models\Usuario could not be converted to string
+in SYSTEMPATH\Database\Query.php on line 335.
+ 1 SYSTEMPATH\Database\Query.php(335): strtr('SELECT *
+FROM `t_usuario`
+WHERE `usuario` = :usuario:', [...])
+ 2 SYSTEMPATH\Database\Query.php(310): CodeIgniter\Database\Query->matchNamedBinds('SELECT *
+FROM `t_usuario`
+WHERE `usuario` = :usuario:', [...])
+ 3 SYSTEMPATH\Database\Query.php(159): CodeIgniter\Database\Query->compileBinds()
+ 4 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\Query->getQuery()
+ 5 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `t_usuario`
+WHERE `usuario` = :usuario:', [...], false)
+ 6 APPPATH\Models\Usuario.php(9): CodeIgniter\Database\BaseBuilder->get()
+ 7 APPPATH\Controllers\Home.php(93): App\Models\Usuario->obtenerusuario([...])
+ 8 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->login()
+ 9 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+10 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-29 21:31:57 --> Object of class App\Models\Usuario could not be converted to string
+in SYSTEMPATH\Database\Query.php on line 335.
+ 1 SYSTEMPATH\Database\Query.php(335): strtr('SELECT *
+FROM `t_usuario`
+WHERE `usuario` = :usuario:', [...])
+ 2 SYSTEMPATH\Database\Query.php(310): CodeIgniter\Database\Query->matchNamedBinds('SELECT *
+FROM `t_usuario`
+WHERE `usuario` = :usuario:', [...])
+ 3 SYSTEMPATH\Database\Query.php(159): CodeIgniter\Database\Query->compileBinds()
+ 4 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\Query->getQuery()
+ 5 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `t_usuario`
+WHERE `usuario` = :usuario:', [...], false)
+ 6 APPPATH\Models\Usuario.php(9): CodeIgniter\Database\BaseBuilder->get()
+ 7 APPPATH\Controllers\Home.php(93): App\Models\Usuario->obtenerusuario([...])
+ 8 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->login()
+ 9 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+10 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-29 21:31:57 --> Object of class App\Models\Usuario could not be converted to string
+in SYSTEMPATH\Database\Query.php on line 335.
+ 1 SYSTEMPATH\Database\Query.php(335): strtr('SELECT *
+FROM `t_usuario`
+WHERE `usuario` = :usuario:', [...])
+ 2 SYSTEMPATH\Database\Query.php(310): CodeIgniter\Database\Query->matchNamedBinds('SELECT *
+FROM `t_usuario`
+WHERE `usuario` = :usuario:', [...])
+ 3 SYSTEMPATH\Database\Query.php(159): CodeIgniter\Database\Query->compileBinds()
+ 4 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\Query->getQuery()
+ 5 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `t_usuario`
+WHERE `usuario` = :usuario:', [...], false)
+ 6 APPPATH\Models\Usuario.php(9): CodeIgniter\Database\BaseBuilder->get()
+ 7 APPPATH\Controllers\Home.php(93): App\Models\Usuario->obtenerusuario([...])
+ 8 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->login()
+ 9 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+10 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-29 21:32:05 --> Class "App\Models\Usuario" not found
+in APPPATH\Controllers\Home.php on line 91.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->login()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-29 21:32:54 --> Object of class App\Models\Usuario could not be converted to string
+in SYSTEMPATH\Database\Query.php on line 335.
+ 1 SYSTEMPATH\Database\Query.php(335): strtr('SELECT *
+FROM `t_usuario`
+WHERE `usuario` = :usuario:', [...])
+ 2 SYSTEMPATH\Database\Query.php(310): CodeIgniter\Database\Query->matchNamedBinds('SELECT *
+FROM `t_usuario`
+WHERE `usuario` = :usuario:', [...])
+ 3 SYSTEMPATH\Database\Query.php(159): CodeIgniter\Database\Query->compileBinds()
+ 4 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\Query->getQuery()
+ 5 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `t_usuario`
+WHERE `usuario` = :usuario:', [...], false)
+ 6 APPPATH\Models\Usuario.php(9): CodeIgniter\Database\BaseBuilder->get()
+ 7 APPPATH\Controllers\Home.php(93): App\Models\Usuario->obtenerusuario([...])
+ 8 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->login()
+ 9 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+10 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-29 21:33:46 --> Call to undefined function App\Models\returnstrtr()
+in APPPATH\Models\Usuario.php on line 9.
+ 1 APPPATH\Controllers\Home.php(93): App\Models\Usuario->obtenerusuario([...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->login()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-29 21:33:51 --> Object of class App\Models\Usuario could not be converted to string
+in SYSTEMPATH\Database\Query.php on line 335.
+ 1 SYSTEMPATH\Database\Query.php(335): strtr('SELECT *
+FROM `t_usuario`
+WHERE `usuario` = :usuario:', [...])
+ 2 SYSTEMPATH\Database\Query.php(310): CodeIgniter\Database\Query->matchNamedBinds('SELECT *
+FROM `t_usuario`
+WHERE `usuario` = :usuario:', [...])
+ 3 SYSTEMPATH\Database\Query.php(159): CodeIgniter\Database\Query->compileBinds()
+ 4 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\Query->getQuery()
+ 5 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `t_usuario`
+WHERE `usuario` = :usuario:', [...], false)
+ 6 APPPATH\Models\Usuario.php(9): CodeIgniter\Database\BaseBuilder->get()
+ 7 APPPATH\Controllers\Home.php(93): App\Models\Usuario->obtenerusuario([...])
+ 8 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->login()
+ 9 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+10 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-29 21:35:51 --> Object of class App\Models\Usuario could not be converted to string
+in SYSTEMPATH\Database\Query.php on line 335.
+ 1 SYSTEMPATH\Database\Query.php(335): strtr('SELECT *
+FROM `t_usuario`
+WHERE `usuario` = :usuario:', [...])
+ 2 SYSTEMPATH\Database\Query.php(310): CodeIgniter\Database\Query->matchNamedBinds('SELECT *
+FROM `t_usuario`
+WHERE `usuario` = :usuario:', [...])
+ 3 SYSTEMPATH\Database\Query.php(159): CodeIgniter\Database\Query->compileBinds()
+ 4 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\Query->getQuery()
+ 5 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `t_usuario`
+WHERE `usuario` = :usuario:', [...], false)
+ 6 APPPATH\Models\Usuario.php(9): CodeIgniter\Database\BaseBuilder->get()
+ 7 APPPATH\Controllers\Home.php(93): App\Models\Usuario->obtenerusuario([...])
+ 8 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->login()
+ 9 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+10 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-29 21:35:52 --> Object of class App\Models\Usuario could not be converted to string
+in SYSTEMPATH\Database\Query.php on line 335.
+ 1 SYSTEMPATH\Database\Query.php(335): strtr('SELECT *
+FROM `t_usuario`
+WHERE `usuario` = :usuario:', [...])
+ 2 SYSTEMPATH\Database\Query.php(310): CodeIgniter\Database\Query->matchNamedBinds('SELECT *
+FROM `t_usuario`
+WHERE `usuario` = :usuario:', [...])
+ 3 SYSTEMPATH\Database\Query.php(159): CodeIgniter\Database\Query->compileBinds()
+ 4 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\Query->getQuery()
+ 5 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `t_usuario`
+WHERE `usuario` = :usuario:', [...], false)
+ 6 APPPATH\Models\Usuario.php(9): CodeIgniter\Database\BaseBuilder->get()
+ 7 APPPATH\Controllers\Home.php(93): App\Models\Usuario->obtenerusuario([...])
+ 8 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->login()
+ 9 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+10 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
