@@ -72,12 +72,8 @@
 				</button>
 				<div class="collapse navbar-collapse" id="navbars-rs-food">
 				<ul class="navbar-nav ml-auto">
-						<li class="nav-item"><a class="nav-link" href="<?php echo base_url();?>index">Home</a></li>
-						<li class="nav-item"><a class="nav-link" href="<?php echo base_url();?>services">Our Services</a></li>
-						<li class="nav-item active"><a class="nav-link" href="<?php echo base_url();?>about">About Us</a></li>
-						<li class="nav-item"><a class="nav-link" href="<?php echo base_url();?>barbers">Our Barbers</a></li>
-						<li class="nav-item"><a class="nav-link" href="<?php echo base_url();?>appointment">Appointment</a></li>
-						<li class="nav-item"><a class="nav-link" href="<?php echo base_url();?>contact">Contact</a></li>
+			     	<li class="nav-item"><a class="nav-link" href="<?php echo base_url();?>contact">contact</a></li>
+						<li class="nav-item"><a class="nav-link" href="<?php echo base_url();?>login">salir</a></li>
 					</ul>
 				</div>
 			</div>
@@ -151,6 +147,7 @@
 						</div>
 					</div><!-- end col -->
 				</div><!-- end row -->
+
 			</div><!-- end container -->
 		</div><!-- end section -->
 

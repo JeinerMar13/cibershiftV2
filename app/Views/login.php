@@ -16,16 +16,19 @@
         <div  class="col-sm-4"></div>
         <div  class="col-sm-4">
         <h1>Login Ciber Shift</h1>
-            <form action="<?php echo base_url('/login')?>" method="POST">
+            <form action="<?php echo base_url(); ?>/contact" method="POST">
             <label for="usuario">Usuario</label>
             <input type="text" name="usuario" class="form-control" required="">
             <label for="password">Password</label>
             <input type="passwor" name="password" class="form-control"  required="">
             <br>
-            <button class=""btn btn-primary">Entrar</button>
+            <button class="btn btn-primary">Guardar </button>
+										 
             </form>
         </div>
         <div  class="col-sm-4"></div>
     </div>
+
+
 
     

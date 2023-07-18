@@ -1,5 +1,6 @@
-<!-- 	<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
+
     <!-- Basic -->
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">   
@@ -8,7 +9,7 @@
     <meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
  
      <!-- Site Metas -->
-    <title>Ciber Shift</title>  
+    <title>ciber Shift</title>  
     <meta name="keywords" content="">
     <meta name="description" content="">
     <meta name="author" content="">
@@ -48,7 +49,7 @@
 		  <div class="mus">
 			<img id	="img2"src="images/jeiner.....png" alt="" />
 		  </div>
-		  <span class="loading" data-name="Loading">ciber Shift cargando ....
+		  <span class="loading" data-name="Loading">ciber shift  cargando..... </span>
 		</div>
     </div><!-- end loader -->
     <!-- END LOADER -->
@@ -61,7 +62,7 @@
 	<header class="top-navbar">
 		<nav class="navbar navbar-expand-lg navbar-light bg-light">
 			<div class="container">
-				<a class="navbar-brand" href="<?php echo base_url();?>cita">
+				<a class="navbar-brand" href="<?php echo base_url() ?>index">
 					<img src="" alt="" />
 				</a>
 				<button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbars-rs-food" aria-controls="navbars-rs-food" aria-expanded="false" aria-label="Toggle navigation">
@@ -71,11 +72,12 @@
 				</button>
 				<div class="collapse navbar-collapse" id="navbars-rs-food">
 				<ul class="navbar-nav ml-auto">
+						<li class="nav-item"><a class="nav-link" href="<?php echo base_url();?>index">Home</a></li>
 						<li class="nav-item"><a class="nav-link" href="<?php echo base_url();?>services">Our Services</a></li>
 						<li class="nav-item active"><a class="nav-link" href="<?php echo base_url();?>about">About Us</a></li>
 						<li class="nav-item"><a class="nav-link" href="<?php echo base_url();?>barbers">Our Barbers</a></li>
 						<li class="nav-item"><a class="nav-link" href="<?php echo base_url();?>appointment">Appointment</a></li>
-						<li class="nav-item"><a class="nav-link" href="<?php echo base_url();?>contact">Contact</a></li>
+						<li class="nav-item"><a class="nav-link" href="<?php echo base_url();?>/">Salir</a></li>
 					</ul>
 				</div>
 			</div>
@@ -95,13 +97,13 @@
 							</div>
 							
 							<div class="title--heading">
-								<h1>Appointment</h1>
+								<h1>Contact</h1>
 							</div>
 							<div class="clearfix"></div>
 							
 							<ol class="breadcrumb">
 								<li><a href="index-3.html">Home</a></li>
-								<li class="active">Appointment</li>
+								<li class="active">contacto</li>
 							</ol>
 						</div>
 						<!-- .title end -->
@@ -110,20 +112,23 @@
 			</div>
 		</div><!-- end all-page-bar -->
 
-		<div id="appointment" class="section wb">
+		<div id="contact" class="section wb">
 			<div class="container">
 				<div class="section-title row text-center">
 					<div class="col-md-8 offset-md-2">
-						<small>LET'S MAKE AN APPOINTMENT FOR YOUR LIFE</small>
-						<h3>Book now</h3>
+						<small>LET'S MAKE AN CONTACT FOR YOUR LIFE</small>
+						<h3>contacto</h3>
 					</div>
 				</div><!-- end title -->
-
+				
 				<div class="row">
-					<div class="col-lg-12">
+					<div class="col-md-8 offset-md-2">
 						<div class="contact_form">
 							<div id="message"></div>
-								<form id="contactfor" class="row" name="contactfor" method="POST" action = "<?php echo base_url().route_to('cita')?>">
+
+							
+							<form id="contactfor" class="row" name="contactfor" method="POST" action = "<?php echo base_url().route_to('entrar')?>">
+								<fieldset class="row row-fluid">
 									<div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
 										<input type="text" name="first_name" id="first_name" class="form-control" placeholder="First Name">
 									</div>
@@ -135,28 +140,12 @@
 									</div>
 									<div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
 										<input type="text" name="phone" id="phone" class="form-control" placeholder="Your Phone">
-										
-									</div>
-									 
-									<div class="col-lg-6 col-md-6 col-sm-6 col-xs-12"	
-									 
-										<p>Seleccione la hora</p>
-										<input type="time" name="tiempo" id="hora" class="form-control" values="tiempo" value="11:45:00" max="22:30:00" min="10:00:00">
-										
-									</div>
-
-									<div id=""class=" col-lg-12 col-md-12 col-sm-12 col-xs-12">
+									</div>									
 									
-									 
-									    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-										
+									<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 text-center">
+						           <button class="btn btn-primary" >Guardar</button>
+                                </div>
 									</div>
-									<div class="form-btn text-center">
-										 <button class="btn btn-primary" >Guardar</button></button>
-										 
-									</div>
-
-							
 								</fieldset>
 							</form>
 						</div>
@@ -164,48 +153,36 @@
 				</div><!-- end row -->
 			</div><!-- end container -->
 		</div><!-- end section -->
-</div><!-- end section -->
 
+		<div class="map-box">
+			<div class="container-fluid">
+				<div id="map"></div>
+			</div><!-- end container -->
+		</div><!-- end section -->
 
+		<div class="footer-distributed">
+			<div class="footer-left">
+				<p class="footer-links">
+					<a href="#">Home</a>
+					<a href="#">Blog</a>
+					<a href="#">Pricing</a>
+					<a href="#">About</a>
+					<a href="#">Faq</a>
+					<a href="#">Contact</a>
+			
+			
+		</div>
+		</div>
+   
 
-		<div id="testimonials" class="parallax section db parallax-inner-bg">
-			<div class="container">
-				<div class="section-title row text-center">
-					<div class="col-md-8 offset-md-2">
-						
-
-		
-					
-				</div>
-	
     
 
     <a href="#" id="scroll-to-top" class="dmtop global-radius"><i class="fa fa-angle-up"></i></a>
-
     <!-- ALL JS FILES -->
     <script src="js/all.js"></script>
-	<script src="js/responsive-tabs.js"></script>
+	<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBDaeWicvigtP9xPv919E-RNoxfvC-Hqik&callback=mapCanvas"></script>
+	<script src="js/map.js"></script>	
     <!-- ALL PLUGINS -->
     <script src="js/custom.js"></script>
-
-    <!-- Menu Toggle Script -->
-    <script>
-    (function($) {
-        "use strict";
-        $("#menu-toggle").click(function(e) {
-            e.preventDefault();
-            $("#wrapper").toggleClass("toggled");
-        });
-        smoothScroll.init({
-            selector: '[data-scroll]', // Selector for links (must be a class, ID, data attribute, or element tag)
-            selectorHeader: null, // Selector for fixed headers (must be a valid CSS selector) [optional]
-            speed: 500, // Integer. How fast to complete the scroll in milliseconds
-            easing: 'easeInOutCubic', // Easing pattern to use
-            offset: 0, // Integer. How far to offset the scrolling anchor location in pixels
-            callback: function ( anchor, toggle ) {} // Function to run after scrolling
-        });
-    })(jQuery);
-    </script>
-
 </body>
 </html>

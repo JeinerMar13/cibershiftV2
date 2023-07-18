@@ -32,20 +32,20 @@ $routes->get('/', 'Home::index');
 $routes->get('/inicio', 'Home::inicio');
 $routes->post('/login', 'Home::login');
 $routes->get('/salir', 'Home::salir'); 
-// $routes->get('/', 'Home::index');
-// $routes->add('/index', 'Home::index');
-// $routes->add('/about', 'Home::about');
-// $routes->get('/appointment', 'Home::appointment');
-// $routes->post('/cita', 'Home::cita',['as' => 'cita']);
-// $routes->add('/barbers', 'Home::barbers');
-// $routes->get('/contact', 'Home::contact');
-// $routes->post('/entrar', 'Home::entrar', ['as' => 'entrar']);
-// $routes->add('/services', 'Home::services');
-// $routes->get('/login', 'Home::login');
-// $routes->post('/logi', 'Home::logi', ['as' => 'logi']);
-// $routes->get('/ingresa', 'Home::ingresa', ['as' => 'ingresa']);
-// $routes->post('/ingresar', 'Home::ingresar', ['as' => 'ingresar']);
-
+ $routes->get('/', 'Home::index');
+ $routes->add('/index', 'Home::index');
+ $routes->add('/about', 'Home::about');
+ $routes->post('/appointment', 'Home::appointment');
+ $routes->post('/cita', 'Home::cita',['as' => 'cita']); 
+ $routes->add('/barbers', 'Home::barbers');
+$routes->post('/contact', 'Home::contact');
+ $routes->post('/entrar', 'Home::entrar', ['as' => 'entrar']);
+ $routes->add('/services', 'Home::services');
+$routes->get('/login', 'Home::login');
+ $routes->post('/logi', 'Home::logi', ['as' => 'logi']);
+ $routes->get('/ingresa', 'Home::ingresa', ['as' => 'ingresa']);
+$routes->post('/ingresar', 'Home::ingresar', ['as' => 'ingresar']);
+$routes->get('/index', 'Home::index');
 /*
  * --------------------------------------------------------------------
  * Additional Routing
